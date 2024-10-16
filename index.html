@@ -122,9 +122,10 @@
           By Nguyễn Gia Thư
         </div>
         <div
+          id="currentYear"
           class="text-primary rounded-full border border-primary px-4 py-1 mt-4 mb-auto"
         >
-          2021
+          <script>document.getElementById('currentYear').appendChild(document.createTextNode(new Date().getFullYear()))</script>
         </div>
       </div>
     </div>
