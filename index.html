@@ -125,7 +125,11 @@
           id="currentYear"
           class="text-primary rounded-full border border-primary px-4 py-1 mt-4 mb-auto"
         >
-          <script>document.getElementById('currentYear').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+          <script>
+            document
+              .getElementById("currentYear")
+              .appendChild(document.createTextNode(new Date().getFullYear()));
+          </script>
         </div>
       </div>
     </div>
@@ -240,7 +244,17 @@
           class="col-span-3 md:col-span-2 self-start text-primary text-lg md:text-xl z-10"
         >
           Tôi sinh ra và lớn lên tại thành phố Nha Trang, tỉnh Khánh Hoà. Hiện
-          nay tôi 23 tuổi, tốt nghiệp cử nhân tại Đại Học Quốc Tế Hồng Bàng.
+          nay tôi
+          <span id="age"
+            ><script>
+              document
+                .getElementById("age")
+                .appendChild(
+                  document.createTextNode(new Date().getFullYear() - 2001)
+                );
+            </script></span
+          >
+          tuổi, tốt nghiệp cử nhân tại Đại Học Quốc Tế Hồng Bàng.
         </div>
       </div>
     </div>
@@ -383,7 +397,7 @@
             <div class="timeline_decorator"></div>
             <time class="mb-1 timeline_item_title">CỘNG TÁC VIÊN</time>
             <h3 class="timeline_item_subtitle">
-              BÁO THANH NIÊN 01/2024 - 04/2024
+              BÁO THANH NIÊN 01/2024 - Hiện tại
             </h3>
             <ul class="yL4mFA" style="margin-left: 0.75em; margin-top: 0.25em">
               <li class="timeline_item_description">
@@ -396,7 +410,7 @@
               </li>
               <li class="timeline_item_description">
                 <span class="text-primary font-bold">Thành tích đạt được</span>
-                <span>: 13 bài báo và 1 video được đăng tải</span>
+                <span>: 20 bài báo và 1 video được đăng tải</span>
               </li>
             </ul>
           </li>
