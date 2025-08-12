@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.partial-border {
+  @apply relative px-14 py-8 text-center
+}
+
+.partial-border::before,
+.partial-border::after {
+  content: "";
+  @apply absolute size-14
+}
+
+.partial-border::before {
+  @apply left-0 top-0 border-l-2 border-t-2 border-primary
+}
+
+.partial-border::after {
+  @apply right-0 bottom-0 border-r-2 border-b-2 border-primary
+}
+
+.avatar-clip {
+  clip-path: path('M12.25,689.84997559 L12.25,219.1000061 C13.35000002,132.3500061 69.95000076,53.93000793 153.08999634,23.98001099 C153.44999635,23.88001098 154.04999632,23.71001098 154.75999629,23.42001098 C176.78999698,16.02001089 199.83999813,12.25001091 223.16999996,12.25001091 L223.40999995,12.25001091 C246.7500001,12.25001091 269.79000102,16.02001089 291.82000361,23.42001098 C292.53000359,23.71001098 293.13000356,23.88001099 293.49000357,23.98001099 C376.63000296,53.92001152 433.2199993,132.3400116 434.32999991,219.1000061 L434.32999991,689.8500061 L12.25,689.8500061 Z');
+}
+
+.timeline_decorator {
+  @apply absolute size-4 bg-secondary rounded-full mt-1 -start-2 border border-white
+}
+
+.timeline_item_title {
+  @apply font-bold text-primary text-xl
+}
+
+.timeline_item_subtitle {
+  @apply text-primary text-lg italic
+}
+
+.timeline_item_description {
+  @apply list-disc ml-4
+}
+
+.skill_item_wrapper {
+  @apply flex flex-col justify-center items-center hover:scale-105 duration-300 cursor-pointer
+}
+
+.skill_item {
+  @apply relative w-1/2 sm:w-1/3
+}
+
+.skill_item_title {
+  @apply text-primary text-center mt-6
+}
+
+.skill_item_decorator_1 {
+  @apply absolute w-[40%] -translate-x-[40%] rotate-[-20deg] bottom-0 left-0
+}
+
+.skill_item_decorator_2 {
+  @apply absolute w-[50%] translate-x-[25%] top-0 right-0
+}
+
+.skill_item_decorator_3 {
+  @apply absolute w-[50%] translate-x-[25%] -scale-x-100 top-0 right-0
+}
+
+.thanks_item {
+  @apply hover:scale-105 duration-300 cursor-pointer
+}

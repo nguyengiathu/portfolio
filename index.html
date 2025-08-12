@@ -1,1600 +1,983 @@
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nguyễn Gia Thư</title>
-    <meta
-      property="og:image"
-      content="https://nguyengiathu.github.io/portfolio/assets/images/avatar.jpg"
-    />
-    <link rel="icon" type="image/x-icon" href="assets/images/fav.png" />
-    <link rel="stylesheet" href="output.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-    <script>
-      new WOW().init();
-    </script>
-    <style>
-      html {
-        scroll-behavior: smooth;
-      }
-    </style>
-  </head>
-  <body class="flex flex-col items-center overflow-x-hidden">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nguyễn Gia Thư</title>
+  <meta property="og:image" content="https://nguyengiathu.github.io/portfolio/assets/images/avatar.jpg" />
+  <link rel="icon" type="image/x-icon" href="assets/images/fav.png" />
+  <link rel="stylesheet" href="output.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+
+<body class="flex flex-col items-center overflow-x-hidden">
+  <div
+    class="w-full min-h-screen grid grid-rows-3 justify-end items-center relative overflow-hidden wow animate__animated animate__fadeIn">
+    <div class="deco_top-left absolute top-0 left-0 origin-top-left scale-50 md:scale-100 min-w-60">
+      <img src="assets/images/deco_3.webp" alt=""
+        class="w-36 absolute top-0 left-0 rotate-[135deg] -translate-x-[55%] -translate-y-[44%]" />
+      <img src="assets/images/deco_2.webp" alt=""
+        class="w-20 absolute top-0 left-0 rotate-[150deg] translate-x-[40%] -translate-y-[30%]" />
+      <img src="assets/images/deco_1.webp" alt=""
+        class="w-20 absolute top-0 left-0 rotate-[160deg] -scale-x-100 translate-x-[120%] -translate-y-[35%]" />
+      <img src="assets/images/deco_4.png" alt=""
+        class="w-12 absolute top-0 left-0 rotate-[95deg] translate-x-[40%] translate-y-[220%]" />
+      <img src="assets/images/deco_5.png" alt=""
+        class="w-8 absolute top-0 left-0 rotate-[-30deg] translate-x-[520%] translate-y-[324%]" />
+    </div>
     <div
-      class="w-full min-h-screen grid grid-rows-3 justify-end items-center relative overflow-hidden wow animate__animated animate__fadeIn"
-    >
-      <div
-        class="deco_top-left absolute top-0 left-0 origin-top-left scale-50 md:scale-100 min-w-60"
-      >
-        <img
-          src="assets/images/deco_3.webp"
-          alt=""
-          class="w-36 absolute top-0 left-0 rotate-[135deg] -translate-x-[55%] -translate-y-[44%]"
-        />
-        <img
-          src="assets/images/deco_2.webp"
-          alt=""
-          class="w-20 absolute top-0 left-0 rotate-[150deg] translate-x-[40%] -translate-y-[30%]"
-        />
-        <img
-          src="assets/images/deco_1.webp"
-          alt=""
-          class="w-20 absolute top-0 left-0 rotate-[160deg] -scale-x-100 translate-x-[120%] -translate-y-[35%]"
-        />
-        <img
-          src="assets/images/deco_4.png"
-          alt=""
-          class="w-12 absolute top-0 left-0 rotate-[95deg] translate-x-[40%] translate-y-[220%]"
-        />
-        <img
-          src="assets/images/deco_5.png"
-          alt=""
-          class="w-8 absolute top-0 left-0 rotate-[-30deg] translate-x-[520%] translate-y-[324%]"
-        />
+      class="deco_top-right absolute top-0 right-0 origin-top-right scale-50 md:scale-100 origin-top-right scale-x-50 md:scale-100 min-w-60">
+      <img src="assets/images/deco_2.webp" alt=""
+        class="w-24 absolute top-0 right-0 rotate-[200deg] -translate-x-[5%] -translate-y-[30%]" />
+      <img src="assets/images/deco_4.png" alt=""
+        class="w-10 absolute top-0 right-0 -scale-x-100 rotate-[245deg] -translate-x-[370%] translate-y-[90%]" />
+      <img src="assets/images/deco_5.png" alt=""
+        class="w-6 absolute top-0 right-0 -scale-x-100 rotate-[35deg] -translate-x-[500%] translate-y-[320%]" />
+    </div>
+    <div class="deco_bottom-left absolute bottom-0 left-0 origin-bottom-left scale-50 md:scale-100 min-w-60">
+      <img src="assets/images/deco_12.png" alt=""
+        class="w-20 absolute bottom-0 left-0 rotate-[0deg] translate-x-[0%] translate-y-[20%]" />
+      <img src="assets/images/deco_3.webp" alt=""
+        class="w-32 absolute bottom-0 left-0 rotate-[20deg] translate-x-[8%] translate-y-[58%]" />
+    </div>
+    <div
+      class="deco_bottom-right absolute bottom-0 right-0 origin-bottom-right scale-75 md:scale-100 origin-top-left scale-50 md:scale-100 min-w-60">
+      <img src="assets/images/deco_6.webp" alt=""
+        class="w-54 absolute bottom-0 right-0 -scale-x-100 rotate-[0deg] translate-x-[18%] translate-y-[25%]" />
+      <img src="assets/images/deco_7.webp" alt=""
+        class="w-20 absolute bottom-0 right-0 -rotate-[20deg] -translate-x-[50%] translate-y-[40%]" />
+      <img src="assets/images/deco_10.webp" alt=""
+        class="w-24 absolute bottom-0 right-0 -rotate-[50deg] -translate-x-[90%] translate-y-[32%]" />
+    </div>
+    <div class="absolute w-full h-1/2 top-1/2 flex flex-col justify-center items-center">
+      <div class="text-primary font-bold text-5xl md:text-7xl -translate-y-1/2 partial-border">
+        Portfolio
+      </div>
+      <div class="text-primary rounded-full border border-primary px-4 py-1 mt-auto">
+        By Nguyễn Gia Thư
+      </div>
+      <div id="currentYear" class="text-primary rounded-full border border-primary px-4 py-1 mt-4 mb-auto">
+        <script>
+          document
+            .getElementById("currentYear")
+            .appendChild(document.createTextNode(new Date().getFullYear()));
+        </script>
+      </div>
+    </div>
+  </div>
+  <div
+    class="w-full flex justify-center items-center px-4 py-16 sm:p-10 md:p-20 relative overflow-hidden wow animate__animated animate__fadeInUp">
+    <div
+      class="deco_bottom-left absolute bottom-0 left-0 origin-bottom-left origin-bottom-left scale-50 md:scale-100 min-w-60">
+      <img src="assets/images/deco_3.webp" alt=""
+        class="w-44 absolute bottom-0 left-0 rotate-[0deg] -translate-x-[28%] translate-y-[5%]" />
+      <img src="assets/images/deco_1.webp" alt=""
+        class="w-20 absolute bottom-0 left-0 rotate-[30deg] -scale-x-100 -translate-x-[42%] -translate-y-[40%]" />
+      <img src="assets/images/deco_13.webp" alt=""
+        class="w-32 absolute bottom-0 left-0 -rotate-[5deg] -translate-x-[15%] -translate-y-[15%]" />
+      <img src="assets/images/deco_13.webp" alt=""
+        class="w-32 absolute bottom-0 left-0 rotate-[40deg] -translate-x-[10%] translate-y-[40%]" />
+      <img src="assets/images/deco_14.webp" alt=""
+        class="w-20 absolute bottom-0 left-0 rotate-[20deg] -translate-x-[10%] translate-y-[32%]" />
+    </div>
+    <div class="deco_top-right absolute top-0 right-0 origin-top-right origin-top-right scale-50 md:scale-100 min-w-60">
+      <img src="assets/images/deco_2.webp" alt=""
+        class="w-28 absolute top-0 right-0 rotate-[206deg] -translate-x-[0%] -translate-y-[30%]" />
+      <img src="assets/images/deco_4.png" alt=""
+        class="w-8 absolute top-0 right-0 -scale-x-100 rotate-[245deg] -translate-x-[670%] translate-y-[110%]" />
+      <img src="assets/images/deco_5.png" alt=""
+        class="w-6 absolute top-0 right-0 -scale-x-100 rotate-[35deg] -translate-x-[580%] translate-y-[200%]" />
+    </div>
+    <div
+      class="container h-full border-2 border-primary grid grid-cols-3 justify-center items-center px-14 py-10 md:gap-8">
+      <div class="col-span-3 text-center text-4xl md:text-5xl text-primary mb-14 md:mb-4">
+        Giới thiệu bản thân
+      </div>
+      <div class="uppercase col-span-3 md:col-span-2 text-primary font-bold text-2xl md:text-3xl self-end z-10">
+        xin chào, tôi tên là
+        <br />
+        nguyễn gia thư
       </div>
       <div
-        class="deco_top-right absolute top-0 right-0 origin-top-right scale-50 md:scale-100 origin-top-right scale-x-50 md:scale-100 min-w-60"
-      >
-        <img
-          src="assets/images/deco_2.webp"
-          alt=""
-          class="w-24 absolute top-0 right-0 rotate-[200deg] -translate-x-[5%] -translate-y-[30%]"
-        />
-        <img
-          src="assets/images/deco_4.png"
-          alt=""
-          class="w-10 absolute top-0 right-0 -scale-x-100 rotate-[245deg] -translate-x-[370%] translate-y-[90%]"
-        />
-        <img
-          src="assets/images/deco_5.png"
-          alt=""
-          class="w-6 absolute top-0 right-0 -scale-x-100 rotate-[35deg] -translate-x-[500%] translate-y-[320%]"
-        />
-      </div>
-      <div
-        class="deco_bottom-left absolute bottom-0 left-0 origin-bottom-left scale-50 md:scale-100 min-w-60"
-      >
-        <img
-          src="assets/images/deco_12.png"
-          alt=""
-          class="w-20 absolute bottom-0 left-0 rotate-[0deg] translate-x-[0%] translate-y-[20%]"
-        />
-        <img
-          src="assets/images/deco_3.webp"
-          alt=""
-          class="w-32 absolute bottom-0 left-0 rotate-[20deg] translate-x-[8%] translate-y-[58%]"
-        />
-      </div>
-      <div
-        class="deco_bottom-right absolute bottom-0 right-0 origin-bottom-right scale-75 md:scale-100 origin-top-left scale-50 md:scale-100 min-w-60"
-      >
-        <img
-          src="assets/images/deco_6.webp"
-          alt=""
-          class="w-54 absolute bottom-0 right-0 -scale-x-100 rotate-[0deg] translate-x-[18%] translate-y-[25%]"
-        />
-        <img
-          src="assets/images/deco_7.webp"
-          alt=""
-          class="w-20 absolute bottom-0 right-0 -rotate-[20deg] -translate-x-[50%] translate-y-[40%]"
-        />
-        <img
-          src="assets/images/deco_10.webp"
-          alt=""
-          class="w-24 absolute bottom-0 right-0 -rotate-[50deg] -translate-x-[90%] translate-y-[32%]"
-        />
-      </div>
-      <div
-        class="absolute w-full h-1/2 top-1/2 flex flex-col justify-center items-center"
-      >
-        <div
-          class="text-primary font-bold text-5xl md:text-7xl -translate-y-1/2 partial-border"
-        >
-          Portfolio
+        class="col-span-3 md:col-span-1 row-span-2 rounded-t-full overflow-hidden border border-primary p-2 m-8 md:m-0 relative overflow-visible">
+        <div class="deco_top-right absolute bottom-[80%] right-0 min-w-60">
+          <img src="assets/images/deco_1.webp" alt=""
+            class="w-[12%] absolute bottom-0 right-0 rotate-[150deg] translate-x-[0%] translate-y-[60%]" />
+          <img src="assets/images/deco_15.webp" alt=""
+            class="w-[12%] absolute bottom-0 right-0 -scale-x-100 -rotate-[50deg] -translate-x-[120%] -translate-y-[20%]" />
+          <img src="assets/images/deco_16.webp" alt=""
+            class="w-[20%] absolute bottom-0 right-0 rotate-[0deg] translate-x-[0%] translate-y-[0%]" />
         </div>
-        <div
-          class="text-primary rounded-full border border-primary px-4 py-1 mt-auto"
-        >
-          By Nguyễn Gia Thư
+        <div class="deco_bottom-right absolute bottom-0 right-0 min-w-60">
+          <img src="assets/images/deco_3.webp" alt=""
+            class="w-9 absolute bottom-0 right-0 rotate-[0deg] translate-x-[60%] -translate-y-[5%]" />
+          <img src="assets/images/deco_14.webp" alt=""
+            class="w-8 absolute bottom-0 right-0 -rotate-[35deg] -translate-x-[20%] -translate-y-[10%]" />
         </div>
-        <div
-          id="currentYear"
-          class="text-primary rounded-full border border-primary px-4 py-1 mt-4 mb-auto"
-        >
+        <img src="assets/images/deco_11.webp" alt=""
+          class="w-12 absolute bottom-0 right-0 -rotate-[0deg] -translate-x-[0%] translate-y-[30%]" />
+        <div class="rounded-t-full overflow-hidden">
+          <img class="w-full" src="assets/images/avatar.jpg" />
+        </div>
+      </div>
+      <div class="col-span-3 md:col-span-2 self-start text-primary text-lg md:text-xl z-10">
+        Tôi sinh ra và lớn lên tại thành phố Nha Trang, tỉnh Khánh Hoà. Hiện
+        nay tôi
+        <span id="age">
           <script>
             document
-              .getElementById("currentYear")
-              .appendChild(document.createTextNode(new Date().getFullYear()));
+              .getElementById("age")
+              .appendChild(
+                document.createTextNode(new Date().getFullYear() - 2001)
+              );
           </script>
-        </div>
+        </span>
+        tuổi, tốt nghiệp cử nhân tại Đại Học Quốc Tế Hồng Bàng.
       </div>
     </div>
-    <div
-      class="w-full flex justify-center items-center px-4 py-16 sm:p-10 md:p-20 relative overflow-hidden wow animate__animated animate__fadeInUp"
-    >
-      <div
-        class="deco_bottom-left absolute bottom-0 left-0 origin-bottom-left origin-bottom-left scale-50 md:scale-100 min-w-60"
-      >
-        <img
-          src="assets/images/deco_3.webp"
-          alt=""
-          class="w-44 absolute bottom-0 left-0 rotate-[0deg] -translate-x-[28%] translate-y-[5%]"
-        />
-        <img
-          src="assets/images/deco_1.webp"
-          alt=""
-          class="w-20 absolute bottom-0 left-0 rotate-[30deg] -scale-x-100 -translate-x-[42%] -translate-y-[40%]"
-        />
-        <img
-          src="assets/images/deco_13.webp"
-          alt=""
-          class="w-32 absolute bottom-0 left-0 -rotate-[5deg] -translate-x-[15%] -translate-y-[15%]"
-        />
-        <img
-          src="assets/images/deco_13.webp"
-          alt=""
-          class="w-32 absolute bottom-0 left-0 rotate-[40deg] -translate-x-[10%] translate-y-[40%]"
-        />
-        <img
-          src="assets/images/deco_14.webp"
-          alt=""
-          class="w-20 absolute bottom-0 left-0 rotate-[20deg] -translate-x-[10%] translate-y-[32%]"
-        />
-      </div>
-      <div
-        class="deco_top-right absolute top-0 right-0 origin-top-right origin-top-right scale-50 md:scale-100 min-w-60"
-      >
-        <img
-          src="assets/images/deco_2.webp"
-          alt=""
-          class="w-28 absolute top-0 right-0 rotate-[206deg] -translate-x-[0%] -translate-y-[30%]"
-        />
-        <img
-          src="assets/images/deco_4.png"
-          alt=""
-          class="w-8 absolute top-0 right-0 -scale-x-100 rotate-[245deg] -translate-x-[670%] translate-y-[110%]"
-        />
-        <img
-          src="assets/images/deco_5.png"
-          alt=""
-          class="w-6 absolute top-0 right-0 -scale-x-100 rotate-[35deg] -translate-x-[580%] translate-y-[200%]"
-        />
-      </div>
-      <div
-        class="container h-full border-2 border-primary grid grid-cols-3 justify-center items-center px-14 py-10 md:gap-8"
-      >
-        <div
-          class="col-span-3 text-center text-4xl md:text-5xl text-primary mb-14 md:mb-4"
-        >
-          Giới thiệu bản thân
-        </div>
-        <div
-          class="uppercase col-span-3 md:col-span-2 text-primary font-bold text-2xl md:text-3xl self-end z-10"
-        >
-          xin chào, tôi tên là
-          <br />
-          nguyễn gia thư
-        </div>
-        <div
-          class="col-span-3 md:col-span-1 row-span-2 rounded-t-full overflow-hidden border border-primary p-2 m-8 md:m-0 relative overflow-visible"
-        >
-          <div class="deco_top-right absolute bottom-[80%] right-0 min-w-60">
-            <img
-              src="assets/images/deco_1.webp"
-              alt=""
-              class="w-[12%] absolute bottom-0 right-0 rotate-[150deg] translate-x-[0%] translate-y-[60%]"
-            />
-            <img
-              src="assets/images/deco_15.webp"
-              alt=""
-              class="w-[12%] absolute bottom-0 right-0 -scale-x-100 -rotate-[50deg] -translate-x-[120%] -translate-y-[20%]"
-            />
-            <img
-              src="assets/images/deco_16.webp"
-              alt=""
-              class="w-[20%] absolute bottom-0 right-0 rotate-[0deg] translate-x-[0%] translate-y-[0%]"
-            />
-          </div>
-          <div class="deco_bottom-right absolute bottom-0 right-0 min-w-60">
-            <img
-              src="assets/images/deco_3.webp"
-              alt=""
-              class="w-9 absolute bottom-0 right-0 rotate-[0deg] translate-x-[60%] -translate-y-[5%]"
-            />
-            <img
-              src="assets/images/deco_14.webp"
-              alt=""
-              class="w-8 absolute bottom-0 right-0 -rotate-[35deg] -translate-x-[20%] -translate-y-[10%]"
-            />
-          </div>
-          <img
-            src="assets/images/deco_11.webp"
-            alt=""
-            class="w-12 absolute bottom-0 right-0 -rotate-[0deg] -translate-x-[0%] translate-y-[30%]"
-          />
-          <div class="rounded-t-full overflow-hidden">
-            <img class="w-full" src="assets/images/avatar.jpg" />
-          </div>
-        </div>
-        <div
-          class="col-span-3 md:col-span-2 self-start text-primary text-lg md:text-xl z-10"
-        >
-          Tôi sinh ra và lớn lên tại thành phố Nha Trang, tỉnh Khánh Hoà. Hiện
-          nay tôi
-          <span id="age"
-            ><script>
-              document
-                .getElementById("age")
-                .appendChild(
-                  document.createTextNode(new Date().getFullYear() - 2001)
-                );
-            </script></span
-          >
-          tuổi, tốt nghiệp cử nhân tại Đại Học Quốc Tế Hồng Bàng.
-        </div>
-      </div>
+  </div>
+  <div
+    class="w-full flex justify-center items-center px-4 py-16 sm:p-10 md:p-20 relative overflow-hidden wow animate__animated animate__fadeInUp">
+    <div class="deco_bottom-left absolute bottom-0 left-0 origin-bottom-left scale-50 md:scale-100 min-w-60">
+      <img src="assets/images/deco_6.webp" alt=""
+        class="w-54 absolute bottom-0 left-0 -scale-x-100 rotate-[15deg] -translate-x-[32%] translate-y-[15%]" />
+      <img src="assets/images/deco_10.webp" alt=""
+        class="w-20 absolute bottom-0 left-0 -scale-x-100 -rotate-[0deg] translate-x-[10%] translate-y-[20%]" />
+      <img src="assets/images/deco_5.png" alt=""
+        class="w-6 absolute bottom-0 left-0 -rotate-[65deg] translate-x-[650%] -translate-y-[80%]" />
+      <img src="assets/images/deco_5.png" alt=""
+        class="w-5 absolute bottom-0 left-0 -rotate-[65deg] translate-x-[1150%] -translate-y-[20%]" />
+    </div>
+    <div class="deco_top-right absolute top-0 right-0 origin-top-right scale-50 md:scale-100 min-w-60">
+      <img src="assets/images/deco_8.webp" alt=""
+        class="w-28 absolute top-0 right-0 rotate-[220deg] -translate-x-[0%] -translate-y-[20%]" />
     </div>
     <div
-      class="w-full flex justify-center items-center px-4 py-16 sm:p-10 md:p-20 relative overflow-hidden wow animate__animated animate__fadeInUp"
-    >
-      <div
-        class="deco_bottom-left absolute bottom-0 left-0 origin-bottom-left scale-50 md:scale-100 min-w-60"
-      >
-        <img
-          src="assets/images/deco_6.webp"
-          alt=""
-          class="w-54 absolute bottom-0 left-0 -scale-x-100 rotate-[15deg] -translate-x-[32%] translate-y-[15%]"
-        />
-        <img
-          src="assets/images/deco_10.webp"
-          alt=""
-          class="w-20 absolute bottom-0 left-0 -scale-x-100 -rotate-[0deg] translate-x-[10%] translate-y-[20%]"
-        />
-        <img
-          src="assets/images/deco_5.png"
-          alt=""
-          class="w-6 absolute bottom-0 left-0 -rotate-[65deg] translate-x-[650%] -translate-y-[80%]"
-        />
-        <img
-          src="assets/images/deco_5.png"
-          alt=""
-          class="w-5 absolute bottom-0 left-0 -rotate-[65deg] translate-x-[1150%] -translate-y-[20%]"
-        />
+      class="container h-full border-2 border-primary flex flex-col justify-center items-center px-8 md:px-14 py-10 gap-8">
+      <div class="text-center text-4xl md:text-5xl text-primary mb-4">
+        Học vấn
       </div>
       <div
-        class="deco_top-right absolute top-0 right-0 origin-top-right scale-50 md:scale-100 min-w-60"
-      >
-        <img
-          src="assets/images/deco_8.webp"
-          alt=""
-          class="w-28 absolute top-0 right-0 rotate-[220deg] -translate-x-[0%] -translate-y-[20%]"
-        />
+        class="w-auto text-primary rounded-full border-2 border-secondary px-6 md:px-14 py-4 uppercase text-lg md:text-2xl text-center">
+        hồng bàng international university
       </div>
-      <div
-        class="container h-full border-2 border-primary flex flex-col justify-center items-center px-8 md:px-14 py-10 gap-8"
-      >
-        <div class="text-center text-4xl md:text-5xl text-primary mb-4">
-          Học vấn
-        </div>
-        <div
-          class="w-auto text-primary rounded-full border-2 border-secondary px-6 md:px-14 py-4 uppercase text-lg md:text-2xl text-center"
-        >
-          hồng bàng international university
-        </div>
-        <div
-          class="flex flex-col md:flex-row gap-10 items-center text-center md:text-left"
-        >
-          <div>
-            <div
-              class="w-auto text-primary uppercase text-xl md:text-2xl font-bold"
-            >
-              sinh viên hệ chính quy
-            </div>
-            <div class="w-auto text-primary text-2xl">
-              Ngành: Truyền thông đa phương tiện
-            </div>
+      <div class="flex flex-col md:flex-row gap-10 items-center text-center md:text-left">
+        <div>
+          <div class="w-auto text-primary uppercase text-xl md:text-2xl font-bold">
+            sinh viên hệ chính quy
           </div>
-          <div class="w-auto text-primary text-xl md:text-2xl md:ml-auto">
-            2020 - 2024
+          <div class="w-auto text-primary text-2xl">
+            Ngành: Truyền thông đa phương tiện
           </div>
         </div>
-        <img src="assets/images/logo_university.png" alt="" class="max-w-96" />
+        <div class="w-auto text-primary text-xl md:text-2xl md:ml-auto">
+          2020 - 2024
+        </div>
       </div>
+      <img src="assets/images/logo_university.png" alt="" class="max-w-96" />
+    </div>
+  </div>
+  <div
+    class="w-full flex justify-center items-center px-4 py-16 sm:p-10 md:p-20 relative overflow-hiddenwow animate__animated animate__fadeInUp">
+    <div class="deco_top-left absolute top-0 left-0 origin-top-left scale-50 md:scale-100 min-w-60">
+      <img src="assets/images/deco_6.webp" alt=""
+        class="w-54 absolute top-0 left-0 -scale-x-100 rotate-[140deg] -translate-x-[25%] -translate-y-[52%]" />
+      <img src="assets/images/deco_5.png" alt=""
+        class="w-6 absolute top-0 left-0 -rotate-[65deg] translate-x-[800%] translate-y-[190%]" />
+      <img src="assets/images/deco_5.png" alt=""
+        class="w-5 absolute top-0 left-0 -rotate-[65deg] translate-x-[1400%] translate-y-[290%]" />
+    </div>
+    <div class="deco_bottom-left absolute bottom-0 left-0 origin-bottom-left scale-50 md:scale-100 min-w-60">
+      <img src="assets/images/deco_10.webp" alt=""
+        class="w-20 absolute bottom-0 left-0 -scale-x-100 rotate-[30deg] translate-x-[42%] translate-y-[35%]" />
+      <img src="assets/images/deco_3.webp" alt=""
+        class="w-24 absolute bottom-0 left-0 -rotate-[15deg] translate-x-[0%] translate-y-[35%]" />
+    </div>
+    <div class="deco_top-right absolute top-0 right-0 origin-top-right scale-50 md:scale-100 min-w-60">
+      <img src="assets/images/deco_8.webp" alt=""
+        class="w-28 absolute top-0 right-0 rotate-[220deg] -translate-x-[0%] -translate-y-[20%]" />
+    </div>
+    <div class="deco_bottom-right absolute bottom-0 right-0 origin-bottom-right scale-50 md:scale-100 min-w-60">
+      <img src="assets/images/deco_2.webp" alt=""
+        class="w-24 absolute bottom-0 right-0 -rotate-[55deg] translate-x-[18%] translate-y-[25%]" />
+      <img src="assets/images/deco_5.png" alt=""
+        class="w-4 absolute bottom-0 right-0 -scale-x-100 rotate-[110deg] -translate-x-[750%] -translate-y-[130%]" />
     </div>
     <div
-      class="w-full flex justify-center items-center px-4 py-16 sm:p-10 md:p-20 relative overflow-hiddenwow animate__animated animate__fadeInUp"
-    >
-      <div
-        class="deco_top-left absolute top-0 left-0 origin-top-left scale-50 md:scale-100 min-w-60"
-      >
-        <img
-          src="assets/images/deco_6.webp"
-          alt=""
-          class="w-54 absolute top-0 left-0 -scale-x-100 rotate-[140deg] -translate-x-[25%] -translate-y-[52%]"
-        />
-        <img
-          src="assets/images/deco_5.png"
-          alt=""
-          class="w-6 absolute top-0 left-0 -rotate-[65deg] translate-x-[800%] translate-y-[190%]"
-        />
-        <img
-          src="assets/images/deco_5.png"
-          alt=""
-          class="w-5 absolute top-0 left-0 -rotate-[65deg] translate-x-[1400%] translate-y-[290%]"
-        />
+      class="container h-full border-2 border-primary grid md:grid-cols-10 justify-center items-center p-8 md:p-14 gap-8">
+      <div class="text-center text-4xl md:text-5xl text-primary md:col-span-4 mb-4 md:mb-0 z-10">
+        Kinh nghiệm làm việc
       </div>
-      <div
-        class="deco_bottom-left absolute bottom-0 left-0 origin-bottom-left scale-50 md:scale-100 min-w-60"
-      >
-        <img
-          src="assets/images/deco_10.webp"
-          alt=""
-          class="w-20 absolute bottom-0 left-0 -scale-x-100 rotate-[30deg] translate-x-[42%] translate-y-[35%]"
-        />
-        <img
-          src="assets/images/deco_3.webp"
-          alt=""
-          class="w-24 absolute bottom-0 left-0 -rotate-[15deg] translate-x-[0%] translate-y-[35%]"
-        />
-      </div>
-      <div
-        class="deco_top-right absolute top-0 right-0 origin-top-right scale-50 md:scale-100 min-w-60"
-      >
-        <img
-          src="assets/images/deco_8.webp"
-          alt=""
-          class="w-28 absolute top-0 right-0 rotate-[220deg] -translate-x-[0%] -translate-y-[20%]"
-        />
-      </div>
-      <div
-        class="deco_bottom-right absolute bottom-0 right-0 origin-bottom-right scale-50 md:scale-100 min-w-60"
-      >
-        <img
-          src="assets/images/deco_2.webp"
-          alt=""
-          class="w-24 absolute bottom-0 right-0 -rotate-[55deg] translate-x-[18%] translate-y-[25%]"
-        />
-        <img
-          src="assets/images/deco_5.png"
-          alt=""
-          class="w-4 absolute bottom-0 right-0 -scale-x-100 rotate-[110deg] -translate-x-[750%] -translate-y-[130%]"
-        />
-      </div>
-      <div
-        class="container h-full border-2 border-primary grid md:grid-cols-10 justify-center items-center p-8 md:p-14 gap-8"
-      >
-        <div
-          class="text-center text-4xl md:text-5xl text-primary md:col-span-4 mb-4 md:mb-0 z-10"
-        >
-          Kinh nghiệm làm việc
-        </div>
-        <ol class="flex-1 relative border-s border-secondary md:col-span-6">
-          <li class="mb-10 ms-4">
-            <div class="timeline_decorator"></div>
-            <time class="mb-1 timeline_item_title">CỘNG TÁC VIÊN</time>
-            <h3 class="timeline_item_subtitle">
-              BÁO THANH NIÊN 01/2024 - Hiện tại
-            </h3>
-            <ul class="yL4mFA" style="margin-left: 0.75em; margin-top: 0.25em">
-              <li class="timeline_item_description">
-                <span
-                  >Lên ý tưởng và tìm kiếm các đề tài phù hợp với xu hướng của
-                  độc giả. Liên hệ và thực hiện phỏng vấn cũng như chụp ảnh, dàn
-                  dựng phóng sự. Sau đó, hoàn thiện bài báo và đăng tải nội
-                  dung</span
-                >
-              </li>
-              <li class="timeline_item_description">
-                <span class="text-primary font-bold">Thành tích đạt được</span>
-                <span>: 20 bài báo và 1 video được đăng tải</span>
-              </li>
-            </ul>
-          </li>
-          <li class="mb-10 ms-4">
-            <div class="timeline_decorator"></div>
-            <time class="mb-1 timeline_item_title">CONTENT CREATOR</time>
-            <h3 class="timeline_item_subtitle">
-              REASON AGENCY 05/2022 - 09/2022
-            </h3>
-            <ul>
-              <li class="timeline_item_description">
-                <span
-                  >Triển khai xây dựng fanpage và sản xuất phim các video ngắn
-                  giới thiệu sản phẩm nhằm thu hút khách hàng. Lập kế hoạch và
-                  đăng tải nội dung về chủ đề làm đẹp và quảng cáo cho các khóa
-                  học thẩm mỹ, tăng cường nhận diện thương hiệu và kết nối hiệu
-                  quả với đối tượng mục tiêu.</span
-                >
-              </li>
-            </ul>
-          </li>
-          <li class="mb-10 ms-4">
-            <div class="timeline_decorator"></div>
-            <time class="mb-1 timeline_item_title"
-              >CỘNG TÁC VIÊN TRUYỀN THÔNG</time
-            >
-            <h3 class="timeline_item_subtitle">
-              HONG BANG INTERNATIONAL UNIVERSITY - 01/2022
-            </h3>
-            <ul>
-              <li class="timeline_item_description">
-                <span
-                  >Viết nội dung đăng bài cho các sự kiện của trường đại học,
-                  lên kế hoạch và nghiên cứu thông tin, ghi chép chi tiết trong
-                  suốt sự kiện và chụp ảnh.</span
-                >
-              </li>
-            </ul>
-          </li>
-          <li class="mb-10 ms-4">
-            <div class="timeline_decorator"></div>
-            <time class="mb-1 timeline_item_title"
-              >CONTENT CREATOR / BEAUTY BLOGGER</time
-            >
-            <h3 class="timeline_item_subtitle">
-              NÀNG MÂY BEAUTY BLOG 2021 - 2022
-            </h3>
-            <ul>
-              <li class="timeline_item_description">
-                <span
-                  >Lên ý tưởng, dựng clip và thiết kế hình ảnh về mỹ phẩm và làm
-                  đẹp, tạo ra nội dung hấp dẫn. Đồng thời tương tác với người
-                  theo dõi để lắng nghe phản hồi, từ đó nâng cao chất lượng nội
-                  dung và phát triển thương hiệu.</span
-                >
-              </li>
-            </ul>
-          </li>
-        </ol>
-      </div>
+      <ol class="flex-1 relative border-s border-secondary md:col-span-6">
+        <li class="mb-10 ms-4">
+          <div class="timeline_decorator"></div>
+          <time class="mb-1 timeline_item_title">BIÊN KỊCH</time>
+          <h3 class="timeline_item_subtitle">
+            CÔNG TY TNHH CHIEU MEDIA 08/2024 - Hiện tại
+          </h3>
+          <ul class="yL4mFA" style="margin-left: 0.75em; margin-top: 0.25em">
+            <li class="timeline_item_description">
+              <span>Viết kịch bản phân cảnh cho phim hoạt hình theo phong cách nhân văn, cảm xúc, dễ hiểu. Sử dụng AI để
+                tạo video mẫu, hình ảnh nhân vật. Tham gia sản xuất, giám sát nội dung và hình ảnh trong suốt quá trình
+                tiền kỳ - hậu kỳ, đảm bảo chất lượng và thống nhất sản phẩm.</span>
+            </li>
+            <li class="timeline_item_description">
+              <span class="text-primary font-bold">Thành tích đạt được</span>
+              <span>: Xây dựng được nhiều video viral trên YouTube, tăng lượng subscribe và giữ chân được lượng người
+                xem ổn định trên mỗi video</span>
+            </li>
+          </ul>
+        </li>
+        <li class="mb-10 ms-4">
+          <div class="timeline_decorator"></div>
+          <time class="mb-1 timeline_item_title">CỘNG TÁC VIÊN</time>
+          <h3 class="timeline_item_subtitle">
+            BÁO THANH NIÊN 01/2024 - 08/2024
+          </h3>
+          <ul class="yL4mFA" style="margin-left: 0.75em; margin-top: 0.25em">
+            <li class="timeline_item_description">
+              <span>Lên ý tưởng và tìm kiếm các đề tài phù hợp với xu hướng của
+                độc giả. Liên hệ và thực hiện phỏng vấn cũng như chụp ảnh, dàn
+                dựng phóng sự. Sau đó, hoàn thiện bài báo và đăng tải nội
+                dung</span>
+            </li>
+            <li class="timeline_item_description">
+              <span class="text-primary font-bold">Thành tích đạt được</span>
+              <span>: 20 bài báo và 1 video được đăng tải</span>
+            </li>
+          </ul>
+        </li>
+        <li class="mb-10 ms-4">
+          <div class="timeline_decorator"></div>
+          <time class="mb-1 timeline_item_title">CONTENT CREATOR</time>
+          <h3 class="timeline_item_subtitle">
+            REASON AGENCY 05/2022 - 09/2022
+          </h3>
+          <ul>
+            <li class="timeline_item_description">
+              <span>Triển khai xây dựng fanpage và sản xuất phim các video ngắn
+                giới thiệu sản phẩm nhằm thu hút khách hàng. Lập kế hoạch và
+                đăng tải nội dung về chủ đề làm đẹp và quảng cáo cho các khóa
+                học thẩm mỹ, tăng cường nhận diện thương hiệu và kết nối hiệu
+                quả với đối tượng mục tiêu.</span>
+            </li>
+          </ul>
+        </li>
+        <li class="mb-10 ms-4">
+          <div class="timeline_decorator"></div>
+          <time class="mb-1 timeline_item_title">CỘNG TÁC VIÊN TRUYỀN THÔNG</time>
+          <h3 class="timeline_item_subtitle">
+            HONG BANG INTERNATIONAL UNIVERSITY - 01/2022
+          </h3>
+          <ul>
+            <li class="timeline_item_description">
+              <span>Viết nội dung đăng bài cho các sự kiện của trường đại học,
+                lên kế hoạch và nghiên cứu thông tin, ghi chép chi tiết trong
+                suốt sự kiện và chụp ảnh.</span>
+            </li>
+          </ul>
+        </li>
+        <li class="mb-10 ms-4">
+          <div class="timeline_decorator"></div>
+          <time class="mb-1 timeline_item_title">CONTENT CREATOR / BEAUTY BLOGGER</time>
+          <h3 class="timeline_item_subtitle">
+            NÀNG MÂY BEAUTY BLOG 2021 - 2022
+          </h3>
+          <ul>
+            <li class="timeline_item_description">
+              <span>Lên ý tưởng, dựng clip và thiết kế hình ảnh về mỹ phẩm và làm
+                đẹp, tạo ra nội dung hấp dẫn. Đồng thời tương tác với người
+                theo dõi để lắng nghe phản hồi, từ đó nâng cao chất lượng nội
+                dung và phát triển thương hiệu.</span>
+            </li>
+          </ul>
+        </li>
+      </ol>
     </div>
-    <div
-      class="w-full flex flex-col justify-center items-center px-4 py-16 md:px-14 py-10 gap-8 relative overflow-hidden wow animate__animated animate__fadeInUp"
-    >
-      <div
-        class="deco_top-left absolute top-0 left-0 origin-top-left scale-50 md:scale-100 min-w-60"
-      >
-        <img
-          src="assets/images/deco_8.webp"
-          alt=""
-          class="w-28 absolute top-0 left-0 -scale-x-100 rotate-[115deg] translate-x-[188%] -translate-y-[32%]"
-        />
-        <img
-          src="assets/images/deco_6.webp"
-          alt=""
-          class="w-54 absolute top-0 left-0 -scale-x-100 rotate-[140deg] -translate-x-[25%] -translate-y-[52%]"
-        />
-        <img
-          src="assets/images/deco_5.png"
-          alt=""
-          class="w-6 absolute top-0 left-0 -rotate-[65deg] translate-x-[800%] translate-y-[190%]"
-        />
-        <img
-          src="assets/images/deco_5.png"
-          alt=""
-          class="w-5 absolute top-0 left-0 -rotate-[65deg] translate-x-[1400%] translate-y-[290%]"
-        />
-      </div>
-      <div
-        class="deco_top-right absolute top-0 right-0 origin-top-right scale-50 md:scale-100 min-w-60"
-      >
-        <img
-          src="assets/images/deco_8.webp"
-          alt=""
-          class="w-28 absolute top-0 right-0 -rotate-[115deg] -translate-x-[188%] -translate-y-[32%]"
-        />
-        <img
-          src="assets/images/deco_6.webp"
-          alt=""
-          class="w-54 absolute top-0 right-0 -rotate-[140deg] translate-x-[25%] -translate-y-[52%]"
-        />
-        <img
-          src="assets/images/deco_5.png"
-          alt=""
-          class="w-6 absolute top-0 right-0 rotate-[65deg] -translate-x-[800%] translate-y-[190%]"
-        />
-        <img
-          src="assets/images/deco_5.png"
-          alt=""
-          class="w-5 absolute top-0 right-0 rotate-[65deg] -translate-x-[1400%] translate-y-[290%]"
-        />
-      </div>
-      <div class="text-center text-4xl md:text-5xl text-primary mt-36 mb-8">
-        Kỹ năng
-      </div>
-      <div
-        class="grid grid-cols-2 md:grid-cols-3 gap-14 justify-between sm:text-lg md:text-xl"
-      >
-        <a href="#scheduled_posts" class="skill_item_wrapper" target="_self">
-          <div class="skill_item">
-            <img
-              src="assets/images/skill_deco_1.png"
-              alt="Watercolor Leaves Illustration"
-              class="skill_item_decorator_1"
-            />
-            <img
-              src="assets/images/skill_folder.svg"
-              alt="Folder Outline Icon"
-            />
-            <img
-              src="assets/images/skill_deco_2.png"
-              alt="Watercolor yellow flower"
-              class="skill_item_decorator_2"
-            />
-          </div>
-          <div href="#scheduled_posts" class="skill_item_title">
-            LÊN KẾ HOẠCH ĐĂNG BÀI
-          </div>
-        </a>
-        <a href="#creative" class="skill_item_wrapper" target="_self">
-          <div class="skill_item">
-            <img
-              src="assets/images/skill_deco_1.png"
-              alt="Watercolor Leaves Illustration"
-              class="skill_item_decorator_1"
-            />
-            <img
-              src="assets/images/skill_folder.svg"
-              alt="Folder Outline Icon"
-            />
-            <img
-              src="assets/images/skill_deco_3.png"
-              alt="Watercolor yellow flower"
-              class="skill_item_decorator_3"
-            />
-          </div>
-          <div class="skill_item_title">SÁNG TẠO NỘI DUNG</div>
-        </a>
-        <a href="#film_maker" target="_self" class="skill_item_wrapper">
-          <div class="skill_item">
-            <img
-              src="assets/images/skill_deco_1.png"
-              alt="Watercolor Leaves Illustration"
-              class="skill_item_decorator_1"
-            />
-            <img
-              src="assets/images/skill_folder.svg"
-              alt="Folder Outline Icon"
-            />
-            <img
-              src="assets/images/skill_deco_4.png"
-              alt="Watercolor yellow flower"
-              class="skill_item_decorator_2"
-            />
-          </div>
-          <div class="skill_item_title">DỰNG PHIM</div>
-        </a>
-        <a href="#graphic_design" class="skill_item_wrapper">
-          <div class="skill_item">
-            <img
-              src="assets/images/skill_deco_1.png"
-              alt="Watercolor Leaves Illustration"
-              class="skill_item_decorator_1"
-            />
-            <img
-              src="assets/images/skill_folder.svg"
-              alt="Folder Outline Icon"
-            />
-            <img
-              src="assets/images/skill_deco_2.png"
-              alt="Watercolor yellow flower"
-              class="skill_item_decorator_2"
-            />
-          </div>
-          <div class="skill_item_title" target="_self">THIẾT KẾ ĐỒ HOẠ</div>
-        </a>
-        <a href="#reportages" target="_self" class="skill_item_wrapper">
-          <div class="skill_item">
-            <img
-              src="assets/images/skill_deco_1.png"
-              alt="Watercolor Leaves Illustration"
-              class="skill_item_decorator_1"
-            />
-            <img
-              src="assets/images/skill_folder.svg"
-              alt="Folder Outline Icon"
-            />
-            <img
-              src="assets/images/skill_deco_3.png"
-              alt="Watercolor yellow flower"
-              class="skill_item_decorator_3"
-            />
-          </div>
-          <div class="skill_item_title">PHÓNG SỰ ẢNH</div>
-        </a>
-        <a href="#web_design" target="_self" class="skill_item_wrapper">
-          <div class="skill_item">
-            <img
-              src="assets/images/skill_deco_1.png"
-              alt="Watercolor Leaves Illustration"
-              class="skill_item_decorator_1"
-            />
-            <img
-              src="assets/images/skill_folder.svg"
-              alt="Folder Outline Icon"
-            />
-            <img
-              src="assets/images/skill_deco_4.png"
-              alt="Watercolor yellow flower"
-              class="skill_item_decorator_2"
-            />
-          </div>
-          <div class="skill_item_title">THIẾT KẾ WEB</div>
-        </a>
-      </div>
+  </div>
+  <div
+    class="w-full flex flex-col justify-center items-center px-4 py-16 md:px-14 py-10 gap-8 relative overflow-hidden wow animate__animated animate__fadeInUp">
+    <div class="deco_top-left absolute top-0 left-0 origin-top-left scale-50 md:scale-100 min-w-60">
+      <img src="assets/images/deco_8.webp" alt=""
+        class="w-28 absolute top-0 left-0 -scale-x-100 rotate-[115deg] translate-x-[188%] -translate-y-[32%]" />
+      <img src="assets/images/deco_6.webp" alt=""
+        class="w-54 absolute top-0 left-0 -scale-x-100 rotate-[140deg] -translate-x-[25%] -translate-y-[52%]" />
+      <img src="assets/images/deco_5.png" alt=""
+        class="w-6 absolute top-0 left-0 -rotate-[65deg] translate-x-[800%] translate-y-[190%]" />
+      <img src="assets/images/deco_5.png" alt=""
+        class="w-5 absolute top-0 left-0 -rotate-[65deg] translate-x-[1400%] translate-y-[290%]" />
     </div>
-    <div
-      id="scheduled_posts"
-      class="w-full flex justify-center items-center px-4 py-16 sm:p-10 md:p-20 relative overflow-hidden wow animate__animated animate__fadeInUp"
-    >
-      <div
-        class="deco_top-left absolute top-0 left-0 origin-top-left scale-50 md:scale-100 min-w-60"
-      >
-        <img
-          src="assets/images/deco_13.webp"
-          alt=""
-          class="w-36 absolute top-0 left-0 rotate-[115deg] -translate-x-[50%] -translate-y-[40%]"
-        />
-      </div>
-      <div
-        class="deco_top-right absolute top-0 right-0 origin-top-right scale-50 md:scale-100 min-w-60"
-      >
-        <img
-          src="assets/images/deco_2.webp"
-          alt=""
-          class="w-24 absolute top-0 right-0 rotate-[200deg] -translate-x-[5%] -translate-y-[30%]"
-        />
-        <img
-          src="assets/images/deco_4.png"
-          alt=""
-          class="w-7 absolute top-0 right-0 -scale-x-100 rotate-[235deg] -translate-x-[750%] translate-y-[120%]"
-        />
-        <img
-          src="assets/images/deco_5.png"
-          alt=""
-          class="w-6 absolute top-0 right-0 -scale-x-100 rotate-[35deg] -translate-x-[500%] translate-y-[220%]"
-        />
-      </div>
-      <div
-        class="deco_bottom-left absolute bottom-0 left-0 origin-bottom-left scale-50 md:scale-100 min-w-60"
-      >
-        <img
-          src="assets/images/deco_8.webp"
-          alt=""
-          class="w-28 absolute bottom-0 left-0 rotate-[60deg] translate-x-[110%] translate-y-[50%]"
-        />
-        <img
-          src="assets/images/deco_13.webp"
-          alt=""
-          class="w-32 absolute bottom-0 left-0 rotate-[20deg] -translate-x-[20%] translate-y-[50%]"
-        />
-      </div>
-      <div
-        class="deco_bottom-right absolute bottom-0 right-0 origin-bottom-right scale-50 md:scale-100 min-w-60"
-      >
-        <img
-          src="assets/images/deco_6.webp"
-          alt=""
-          class="w-54 absolute bottom-0 right-0 -scale-x-100 rotate-[0deg] translate-x-[18%] translate-y-[25%]"
-        />
-        <img
-          src="assets/images/deco_7.webp"
-          alt=""
-          class="w-20 absolute bottom-0 right-0 -rotate-[20deg] -translate-x-[50%] translate-y-[40%]"
-        />
-        <img
-          src="assets/images/deco_10.webp"
-          alt=""
-          class="w-24 absolute bottom-0 right-0 -rotate-[50deg] -translate-x-[90%] translate-y-[32%]"
-        />
-      </div>
-      <div
-        class="container h-full border-2 border-primary grid grid-cols-2 justify-center items-center px-8 md:px-14 py-10 gap-8"
-      >
-        <div
-          class="col-span-2 text-center text-4xl md:text-5xl text-primary mb-4 z-10"
-        >
-          Lên kế hoạch đăng bài
-        </div>
-        <img
-          src="assets/images/schedule_post_1.jpg"
-          alt=""
-          class="size-full row-span-2 col-span-2 lg:col-span-1 object-cover shadow-lg hover:scale-105 duration-300 z-10"
-        />
-        <img
-          src="assets/images/schedule_post_2.jpg"
-          alt=""
-          class="object-cover size-full col-span-2 lg:col-span-1 shadow-lg hover:scale-105 duration-300 z-10"
-        />
-        <img
-          src="assets/images/schedule_post_3.jpg"
-          alt=""
-          class="object-cover size-full col-span-2 lg:col-span-1 shadow-lg hover:scale-105 duration-300 z-10"
-        />
-      </div>
+    <div class="deco_top-right absolute top-0 right-0 origin-top-right scale-50 md:scale-100 min-w-60">
+      <img src="assets/images/deco_8.webp" alt=""
+        class="w-28 absolute top-0 right-0 -rotate-[115deg] -translate-x-[188%] -translate-y-[32%]" />
+      <img src="assets/images/deco_6.webp" alt=""
+        class="w-54 absolute top-0 right-0 -rotate-[140deg] translate-x-[25%] -translate-y-[52%]" />
+      <img src="assets/images/deco_5.png" alt=""
+        class="w-6 absolute top-0 right-0 rotate-[65deg] -translate-x-[800%] translate-y-[190%]" />
+      <img src="assets/images/deco_5.png" alt=""
+        class="w-5 absolute top-0 right-0 rotate-[65deg] -translate-x-[1400%] translate-y-[290%]" />
     </div>
-    <div
-      class="w-full flex justify-center items-center px-4 py-16 sm:p-10 md:p-20 relative overflow-hidden wow animate__animated animate__fadeInUp"
-    >
-      <div
-        class="deco_top-left absolute top-0 left-0 origin-top-left scale-50 md:scale-100 min-w-60"
-      >
-        <img
-          src="assets/images/deco_13.webp"
-          alt=""
-          class="w-36 absolute top-0 left-0 rotate-[115deg] -translate-x-[50%] -translate-y-[40%]"
-        />
-      </div>
-      <div
-        class="deco_top-right absolute top-0 right-0 origin-top-right scale-50 md:scale-100 min-w-60"
-      >
-        <img
-          src="assets/images/deco_2.webp"
-          alt=""
-          class="w-24 absolute top-0 right-0 rotate-[200deg] -translate-x-[5%] -translate-y-[30%]"
-        />
-        <img
-          src="assets/images/deco_4.png"
-          alt=""
-          class="w-7 absolute top-0 right-0 -scale-x-100 rotate-[235deg] -translate-x-[750%] translate-y-[120%]"
-        />
-        <img
-          src="assets/images/deco_5.png"
-          alt=""
-          class="w-6 absolute top-0 right-0 -scale-x-100 rotate-[35deg] -translate-x-[500%] translate-y-[220%]"
-        />
-      </div>
-      <div
-        class="deco_bottom-left absolute bottom-0 left-0 origin-bottom-left scale-50 md:scale-100 min-w-60"
-      >
-        <img
-          src="assets/images/deco_8.webp"
-          alt=""
-          class="w-28 absolute bottom-0 left-0 rotate-[60deg] translate-x-[110%] translate-y-[50%]"
-        />
-        <img
-          src="assets/images/deco_13.webp"
-          alt=""
-          class="w-32 absolute bottom-0 left-0 rotate-[20deg] -translate-x-[20%] translate-y-[50%]"
-        />
-      </div>
-      <div
-        class="deco_bottom-right absolute bottom-0 right-0 origin-bottom-right scale-50 md:scale-100 min-w-60"
-      >
-        <img
-          src="assets/images/deco_6.webp"
-          alt=""
-          class="w-54 absolute bottom-0 right-0 -scale-x-100 rotate-[0deg] translate-x-[18%] translate-y-[25%]"
-        />
-        <img
-          src="assets/images/deco_7.webp"
-          alt=""
-          class="w-20 absolute bottom-0 right-0 -rotate-[20deg] -translate-x-[50%] translate-y-[40%]"
-        />
-        <img
-          src="assets/images/deco_10.webp"
-          alt=""
-          class="w-24 absolute bottom-0 right-0 -rotate-[50deg] -translate-x-[90%] translate-y-[32%]"
-        />
-      </div>
-      <div
-        class="container h-full border-2 border-primary flex flex-col justify-center items-center px-8 md:px-14 py-10 gap-8"
-      >
-        <div class="text-center text-4xl md:text-5xl text-primary mb-4 z-10">
-          Bài báo
-        </div>
-        <div class="w-full relative overflow-x-auto shadow-md sm:rounded-lg">
-          <table class="w-full text-sm text-left text-gray-400">
-            <thead
-              class="text-xs text-gray-700 uppercase bg-gray-700 text-gray-400"
-            >
-              <tr>
-                <th scope="col" class="px-2 py-3">Ngày</th>
-                <th scope="col" class="px-2 py-3">Nội dung</th>
-                <th scope="col" class="px-2 py-3">Link</th>
-              </tr>
-            </thead>
-            <tbody class="text-white">
-              <tr
-                class="odd:bg-gray-900 even:bg-gray-800 border-b border-gray-700"
-              >
-                <th scope="row" class="px-2 py-4 whitespace-nowrap">
-                  11/01/2024
-                </th>
-                <td class="px-2 py-4">
-                  Phố bán đồ trang trí tết ở TP.HCM rực rỡ: Người mua chần chừ,
-                  người bán thấp thỏm
-                </td>
-                <td class="px-2 py-4">
-                  <a
-                    href="https://thanhnien.vn/pho-ban-do-trang-tri-tet-o-tphcm-ruc-ro-nguoi-mua-chan-chu-nguoi-ban-thap-thom-185240110193337971.htm"
-                    class="hover:underline"
-                    >Xem</a
-                  >
-                </td>
-              </tr>
-              <tr
-                class="odd:bg-gray-900 even:bg-gray-800 border-b border-gray-700"
-              >
-                <th scope="row" class="px-2 py-4 whitespace-nowrap">
-                  12/01/2024
-                </th>
-                <td class="px-2 py-4">
-                  Chợ bánh kẹo, mứt tết lớn nhất TP.HCM nhộn nhịp: Tiểu thương
-                  tim 'đánh lô tô'
-                </td>
-                <td class="px-2 py-4">
-                  <a
-                    href="https://thanhnien.vn/cho-banh-keo-mut-tet-lon-nhat-tphcm-nhon-nhip-tieu-thuong-tim-danh-lo-to-185240112124949006.htm"
-                    class="hover:underline"
-                    >Xem</a
-                  >
-                </td>
-              </tr>
-              <tr
-                class="odd:bg-gray-900 even:bg-gray-800 border-b border-gray-700"
-              >
-                <th scope="row" class="px-2 py-4 whitespace-nowrap">
-                  16/01/2024
-                </th>
-                <td class="px-2 py-4">
-                  Gia đình miền Tây dắt nhau lên TP.HCM làm dừa dát vàng, kiếm
-                  tiền tiêu tết
-                </td>
-                <td class="px-2 py-4">
-                  <a
-                    href="https://thanhnien.vn/gia-dinh-mien-tay-dat-nhau-len-tphcm-lam-dua-dat-vang-kiem-tien-tieu-tet-185240115230914838.htm"
-                    class="hover:underline"
-                    >Xem</a
-                  >
-                </td>
-              </tr>
-              <tr
-                class="odd:bg-gray-900 even:bg-gray-800 border-b border-gray-700"
-              >
-                <th scope="row" class="px-2 py-4 whitespace-nowrap">
-                  19/01/2024
-                </th>
-                <td class="px-2 py-4">
-                  Người dân khu Chợ Lớn sắm tết tại công viên Văn Lang
-                </td>
-                <td class="px-2 py-4">
-                  <a
-                    href="https://thanhnien.vn/nguoi-dan-khu-cho-lon-sam-tet-tai-cong-vien-van-lang-185240119120806413.htm"
-                    class="hover:underline"
-                    >Xem</a
-                  >
-                </td>
-              </tr>
-              <tr
-                class="odd:bg-gray-900 even:bg-gray-800 border-b border-gray-700"
-              >
-                <th scope="row" class="px-2 py-4 whitespace-nowrap">
-                  24/01/2024
-                </th>
-                <td class="px-2 py-4">
-                  Siêu thị tết 0 đồng ở TP.HCM: Nhiều người chọn gạo, mì gói để
-                  dành ăn dần
-                </td>
-                <td class="px-2 py-4">
-                  <a
-                    href="https://thanhnien.vn/sieu-thi-tet-0-dong-o-tphcm-nhieu-nguoi-chon-gao-mi-goi-de-danh-an-dan-185240124121155595.htm"
-                    class="hover:underline"
-                    >Xem</a
-                  >
-                </td>
-              </tr>
-              <tr
-                class="odd:bg-gray-900 even:bg-gray-800 border-b border-gray-700"
-              >
-                <th scope="row" class="px-2 py-4 whitespace-nowrap">
-                  27/01/2024
-                </th>
-                <td class="px-2 py-4">
-                  Xóm đạo TP.HCM 'ăn tết lớn', trang trí rực rỡ chào đón mọi
-                  người đến check-in
-                </td>
-                <td class="px-2 py-4">
-                  <a
-                    href="https://thanhnien.vn/xom-dao-tphcm-an-tet-lon-trang-tri-ruc-ro-chao-don-moi-nguoi-den-check-in-185240127085807378.htm"
-                    class="hover:underline"
-                    >Xem</a
-                  >
-                </td>
-              </tr>
-              <tr
-                class="odd:bg-gray-900 even:bg-gray-800 border-b border-gray-700"
-              >
-                <th scope="row" class="px-2 py-4 whitespace-nowrap">
-                  26/02/2024
-                </th>
-                <td class="px-2 py-4">
-                  Hai thầy giáo Tây kết thúc chuyến đi bộ xuyên Việt gây quỹ
-                  giúp trẻ em
-                </td>
-                <td class="px-2 py-4">
-                  <a
-                    href="https://thanhnien.vn/hai-thay-giao-tay-ket-thuc-chuyen-di-bo-xuyen-viet-gay-quy-giup-tre-em-185240226122104579.htm"
-                    class="hover:underline"
-                    >Xem</a
-                  >
-                </td>
-              </tr>
-              <tr
-                class="odd:bg-gray-900 even:bg-gray-800 border-b border-gray-700"
-              >
-                <th scope="row" class="px-2 py-4 whitespace-nowrap">
-                  07/03/2024
-                </th>
-                <td class="px-2 py-4">
-                  Tặng hoa ngày 8.3 là… lãng mạn hay lãng phí?: Phái nữ lên
-                  tiếng
-                </td>
-                <td class="px-2 py-4">
-                  <a
-                    href="https://thanhnien.vn/tang-hoa-ngay-83-la-lang-man-hay-lang-phi-phai-nu-len-tieng-185240307092329091.htm"
-                    class="hover:underline"
-                    >Xem</a
-                  >
-                </td>
-              </tr>
-              <tr
-                class="odd:bg-gray-900 even:bg-gray-800 border-b border-gray-700"
-              >
-                <th scope="row" class="px-2 py-4 whitespace-nowrap">
-                  27/03/2024
-                </th>
-                <td class="px-2 py-4">
-                  Người Công giáo ở TP.HCM lãnh nhận bí tích giải tội trước Lễ
-                  Phục sinh
-                </td>
-                <td class="px-2 py-4">
-                  <a
-                    href="https://thanhnien.vn/nguoi-cong-giao-o-tphcm-lanh-nhan-bi-tich-giai-toi-truoc-le-phuc-sinh-185240317200148344.htm"
-                    class="hover:underline"
-                    >Xem</a
-                  >
-                </td>
-              </tr>
-              <tr
-                class="odd:bg-gray-900 even:bg-gray-800 border-b border-gray-700"
-              >
-                <th scope="row" class="px-2 py-4 whitespace-nowrap">
-                  30/03/2024
-                </th>
-                <td class="px-2 py-4">
-                  Người Công giáo ở TP.HCM đón lễ Phục sinh, hân hoan mừng Chúa
-                  Giêsu sống lại
-                </td>
-                <td class="px-2 py-4">
-                  <a
-                    href="https://thanhnien.vn/nguoi-cong-giao-o-tphcm-don-le-phuc-sinh-han-hoan-mung-chua-giesu-song-lai-185240330212606311.htm"
-                    class="hover:underline"
-                    >Xem</a
-                  >
-                </td>
-              </tr>
-              <tr
-                class="odd:bg-gray-900 even:bg-gray-800 border-b border-gray-700"
-              >
-                <th scope="row" class="px-2 py-4 whitespace-nowrap">
-                  04/04/2024
-                </th>
-                <td class="px-2 py-4">
-                  Nhiều người ở chung cư TP.HCM ám ảnh mùi hôi, chất thải của
-                  chó mèo
-                </td>
-                <td class="px-2 py-4">
-                  <a
-                    href="https://thanhnien.vn/nhieu-nguoi-o-chung-cu-tphcm-am-anh-mui-hoi-chat-thai-cua-cho-meo-185240404135710219.htm"
-                    class="hover:underline"
-                    >Xem</a
-                  >
-                </td>
-              </tr>
-              <tr
-                class="odd:bg-gray-900 even:bg-gray-800 border-b border-gray-700"
-              >
-                <th scope="row" class="px-2 py-4 whitespace-nowrap">
-                  06/04/2024
-                </th>
-                <td class="px-2 py-4">
-                  Gia đình nuôi 5 con chó ở chung cư 'bật mí' bí quyết không bị
-                  hàng xóm phàn nàn
-                </td>
-                <td class="px-2 py-4">
-                  <a
-                    href="https://thanhnien.vn/gia-dinh-nuoi-5-con-cho-o-chung-cu-bat-mi-bi-quyet-khong-bi-hang-xom-phan-nan-185240405190435535.htm"
-                    class="hover:underline"
-                    >Xem</a
-                  >
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
+    <div class="text-center text-4xl md:text-5xl text-primary mt-36 mb-8">
+      Kỹ năng
     </div>
-    <div
-      id="creative"
-      class="w-full flex justify-center items-center px-4 py-16 sm:p-10 md:p-20 relative overflow-hidden wow animate__animated animate__fadeInUp"
-    >
-      <div
-        class="deco_top-left absolute top-0 left-0 origin-top-left scale-50 md:scale-100 min-w-60"
-      >
-        <img
-          src="assets/images/deco_13.webp"
-          alt=""
-          class="w-36 absolute top-0 left-0 rotate-[115deg] -translate-x-[50%] -translate-y-[40%]"
-        />
-      </div>
-      <div
-        class="deco_top-right absolute top-0 right-0 origin-top-right scale-50 md:scale-100 min-w-60"
-      >
-        <img
-          src="assets/images/deco_2.webp"
-          alt=""
-          class="w-24 absolute top-0 right-0 rotate-[200deg] -translate-x-[5%] -translate-y-[30%]"
-        />
-        <img
-          src="assets/images/deco_4.png"
-          alt=""
-          class="w-7 absolute top-0 right-0 -scale-x-100 rotate-[235deg] -translate-x-[750%] translate-y-[120%]"
-        />
-        <img
-          src="assets/images/deco_5.png"
-          alt=""
-          class="w-6 absolute top-0 right-0 -scale-x-100 rotate-[35deg] -translate-x-[500%] translate-y-[220%]"
-        />
-      </div>
-      <div
-        class="deco_bottom-left absolute bottom-0 left-0 origin-bottom-left scale-50 md:scale-100 min-w-60"
-      >
-        <img
-          src="assets/images/deco_8.webp"
-          alt=""
-          class="w-28 absolute bottom-0 left-0 rotate-[60deg] translate-x-[110%] translate-y-[50%]"
-        />
-        <img
-          src="assets/images/deco_13.webp"
-          alt=""
-          class="w-32 absolute bottom-0 left-0 rotate-[20deg] -translate-x-[20%] translate-y-[50%]"
-        />
-      </div>
-      <div
-        class="deco_bottom-right absolute bottom-0 right-0 origin-bottom-right scale-50 md:scale-100 min-w-60"
-      >
-        <img
-          src="assets/images/deco_6.webp"
-          alt=""
-          class="w-54 absolute bottom-0 right-0 -scale-x-100 rotate-[0deg] translate-x-[18%] translate-y-[25%]"
-        />
-        <img
-          src="assets/images/deco_7.webp"
-          alt=""
-          class="w-20 absolute bottom-0 right-0 -rotate-[20deg] -translate-x-[50%] translate-y-[40%]"
-        />
-        <img
-          src="assets/images/deco_10.webp"
-          alt=""
-          class="w-24 absolute bottom-0 right-0 -rotate-[50deg] -translate-x-[90%] translate-y-[32%]"
-        />
-      </div>
-      <a
-        href="https://www.facebook.com/nangg.mayyyy"
-        target="_blank"
-        class="container h-full border-2 border-primary grid grid-cols-3 justify-center items-center px-8 md:px-14 py-10 gap-8"
-      >
-        <div
-          class="col-span-3 text-center text-4xl md:text-5xl text-primary mb-4 z-10"
-        >
-          Sáng tạo nội dung
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-14 justify-between sm:text-lg md:text-xl">
+      <a href="#scheduled_posts" class="skill_item_wrapper" target="_self">
+        <div class="skill_item">
+          <img src="assets/images/skill_deco_1.png" alt="Watercolor Leaves Illustration"
+            class="skill_item_decorator_1" />
+          <img src="assets/images/skill_folder.svg" alt="Folder Outline Icon" />
+          <img src="assets/images/skill_deco_2.png" alt="Watercolor yellow flower" class="skill_item_decorator_2" />
         </div>
-        <img
-          src="assets/images/creative_1.png"
-          alt=""
-          class="size-full col-span-3 lg:col-span-1 object-contain shadow-lg hover:scale-105 duration-300 z-10"
-        />
-        <img
-          src="assets/images/creative_2.png"
-          alt=""
-          class="object-contain size-full col-span-3 lg:col-span-1 shadow-lg hover:scale-105 duration-300 z-10"
-        />
-        <img
-          src="assets/images/creative_3.png"
-          alt=""
-          class="object-contain size-full col-span-3 lg:col-span-1 shadow-lg hover:scale-105 duration-300 z-10"
-        />
+        <div href="#scheduled_posts" class="skill_item_title">
+          BIÊN KỊCH
+        </div>
+      </a>
+      <a href="#creative" class="skill_item_wrapper" target="_self">
+        <div class="skill_item">
+          <img src="assets/images/skill_deco_1.png" alt="Watercolor Leaves Illustration"
+            class="skill_item_decorator_1" />
+          <img src="assets/images/skill_folder.svg" alt="Folder Outline Icon" />
+          <img src="assets/images/skill_deco_3.png" alt="Watercolor yellow flower" class="skill_item_decorator_3" />
+        </div>
+        <div class="skill_item_title">SÁNG TẠO NỘI DUNG</div>
+      </a>
+      <a href="#film_maker" target="_self" class="skill_item_wrapper">
+        <div class="skill_item">
+          <img src="assets/images/skill_deco_1.png" alt="Watercolor Leaves Illustration"
+            class="skill_item_decorator_1" />
+          <img src="assets/images/skill_folder.svg" alt="Folder Outline Icon" />
+          <img src="assets/images/skill_deco_4.png" alt="Watercolor yellow flower" class="skill_item_decorator_2" />
+        </div>
+        <div class="skill_item_title">DỰNG PHIM</div>
+      </a>
+      <a href="#graphic_design" class="skill_item_wrapper">
+        <div class="skill_item">
+          <img src="assets/images/skill_deco_1.png" alt="Watercolor Leaves Illustration"
+            class="skill_item_decorator_1" />
+          <img src="assets/images/skill_folder.svg" alt="Folder Outline Icon" />
+          <img src="assets/images/skill_deco_2.png" alt="Watercolor yellow flower" class="skill_item_decorator_2" />
+        </div>
+        <div class="skill_item_title" target="_self">THIẾT KẾ ĐỒ HOẠ</div>
+      </a>
+      <a href="#reportages" target="_self" class="skill_item_wrapper">
+        <div class="skill_item">
+          <img src="assets/images/skill_deco_1.png" alt="Watercolor Leaves Illustration"
+            class="skill_item_decorator_1" />
+          <img src="assets/images/skill_folder.svg" alt="Folder Outline Icon" />
+          <img src="assets/images/skill_deco_3.png" alt="Watercolor yellow flower" class="skill_item_decorator_3" />
+        </div>
+        <div class="skill_item_title">PHÓNG SỰ ẢNH</div>
+      </a>
+      <a href="#web_design" target="_self" class="skill_item_wrapper">
+        <div class="skill_item">
+          <img src="assets/images/skill_deco_1.png" alt="Watercolor Leaves Illustration"
+            class="skill_item_decorator_1" />
+          <img src="assets/images/skill_folder.svg" alt="Folder Outline Icon" />
+          <img src="assets/images/skill_deco_4.png" alt="Watercolor yellow flower" class="skill_item_decorator_2" />
+        </div>
+        <div class="skill_item_title">THIẾT KẾ WEB</div>
       </a>
     </div>
+  </div>
+  <div id="scheduled_posts"
+    class="w-full flex justify-center items-center px-4 py-16 sm:p-10 md:p-20 relative overflow-hidden wow animate__animated animate__fadeInUp">
+    <div class="deco_top-left absolute top-0 left-0 origin-top-left scale-50 md:scale-100 min-w-60">
+      <img src="assets/images/deco_13.webp" alt=""
+        class="w-36 absolute top-0 left-0 rotate-[115deg] -translate-x-[50%] -translate-y-[40%]" />
+    </div>
+    <div class="deco_top-right absolute top-0 right-0 origin-top-right scale-50 md:scale-100 min-w-60">
+      <img src="assets/images/deco_2.webp" alt=""
+        class="w-24 absolute top-0 right-0 rotate-[200deg] -translate-x-[5%] -translate-y-[30%]" />
+      <img src="assets/images/deco_4.png" alt=""
+        class="w-7 absolute top-0 right-0 -scale-x-100 rotate-[235deg] -translate-x-[750%] translate-y-[120%]" />
+      <img src="assets/images/deco_5.png" alt=""
+        class="w-6 absolute top-0 right-0 -scale-x-100 rotate-[35deg] -translate-x-[500%] translate-y-[220%]" />
+    </div>
+    <div class="deco_bottom-left absolute bottom-0 left-0 origin-bottom-left scale-50 md:scale-100 min-w-60">
+      <img src="assets/images/deco_8.webp" alt=""
+        class="w-28 absolute bottom-0 left-0 rotate-[60deg] translate-x-[110%] translate-y-[50%]" />
+      <img src="assets/images/deco_13.webp" alt=""
+        class="w-32 absolute bottom-0 left-0 rotate-[20deg] -translate-x-[20%] translate-y-[50%]" />
+    </div>
+    <div class="deco_bottom-right absolute bottom-0 right-0 origin-bottom-right scale-50 md:scale-100 min-w-60">
+      <img src="assets/images/deco_6.webp" alt=""
+        class="w-54 absolute bottom-0 right-0 -scale-x-100 rotate-[0deg] translate-x-[18%] translate-y-[25%]" />
+      <img src="assets/images/deco_7.webp" alt=""
+        class="w-20 absolute bottom-0 right-0 -rotate-[20deg] -translate-x-[50%] translate-y-[40%]" />
+      <img src="assets/images/deco_10.webp" alt=""
+        class="w-24 absolute bottom-0 right-0 -rotate-[50deg] -translate-x-[90%] translate-y-[32%]" />
+    </div>
     <div
-      id="film_maker"
-      class="w-full flex justify-center items-center px-4 py-16 sm:p-10 md:p-20 relative overflow-hidden wow animate__animated animate__fadeInUp"
-    >
-      <div
-        class="deco_top-left absolute top-0 left-0 origin-top-left scale-50 md:scale-100 min-w-60"
-      >
-        <img
-          src="assets/images/deco_13.webp"
-          alt=""
-          class="w-36 absolute top-0 left-0 rotate-[115deg] -translate-x-[50%] -translate-y-[40%]"
-        />
+      class="container h-full border-2 border-primary flex flex-col justify-center items-center px-8 md:px-14 py-10 gap-8">
+      <div class="text-center text-4xl md:text-5xl text-primary mb-4 z-10">
+        Biên kịch
       </div>
-      <div
-        class="deco_top-right absolute top-0 right-0 origin-top-right scale-50 md:scale-100 min-w-60"
-      >
-        <img
-          src="assets/images/deco_2.webp"
-          alt=""
-          class="w-24 absolute top-0 right-0 rotate-[200deg] -translate-x-[5%] -translate-y-[30%]"
-        />
-        <img
-          src="assets/images/deco_4.png"
-          alt=""
-          class="w-7 absolute top-0 right-0 -scale-x-100 rotate-[235deg] -translate-x-[750%] translate-y-[120%]"
-        />
-        <img
-          src="assets/images/deco_5.png"
-          alt=""
-          class="w-6 absolute top-0 right-0 -scale-x-100 rotate-[35deg] -translate-x-[500%] translate-y-[220%]"
-        />
+      <div class="w-full relative overflow-x-auto shadow-md sm:rounded-lg">
+        <table class="w-full text-sm text-left text-gray-400">
+          <thead class="text-xs text-gray-700 uppercase bg-gray-700 text-gray-400 text-white">
+            <tr>
+              <th scope="col" class="px-2 py-3">Ngày / Lượt view</th>
+              <th scope="col" class="px-2 py-3">Link</th>
+            </tr>
+          </thead>
+          <tbody class="text-white">
+            <tr class="odd:bg-gray-900 even:bg-gray-800 border-b border-gray-700">
+              <th scope="row" class="px-2 py-4 whitespace-nowrap w-0">
+                05/08/2025
+                <br>
+                36k views
+              </th>
+              <td class="px-2 py-4">
+                <div class="w-full aspect-video relative">
+                  <iframe class="absolute top-0 left-0 w-full h-full"
+                    src="https://www.youtube.com/embed/IIqZ4SXwa_Q?si=50E8yikJSRyMgKdn&amp;controls=0" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                  </iframe>
+                </div>
+              </td>
+            </tr>
+            <tr class="odd:bg-gray-900 even:bg-gray-800 border-b border-gray-700">
+              <th scope="row" class="px-2 py-4 whitespace-nowrap">
+                11/07/2025
+                <br>
+                25k views
+              </th>
+              <td class="px-2 py-4">
+                <div class="w-full aspect-video relative">
+                  <iframe class="absolute top-0 left-0 w-full h-full"
+                    src="https://www.youtube.com/embed/Aa8cTa0n_Mw?si=_ISIXA-gkN3v8rjI&amp;controls=0" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                  </iframe>
+                </div>
+              </td>
+            </tr>
+            <tr class="odd:bg-gray-900 even:bg-gray-800 border-b border-gray-700">
+              <th scope="row" class="px-2 py-4 whitespace-nowrap">
+                15/06/2025
+                <br>
+                43k views
+              </th>
+              <td class="px-2 py-4">
+                <div class="w-full aspect-video relative">
+                  <iframe class="absolute top-0 left-0 w-full h-full"
+                    src="https://www.youtube.com/embed/kTXcK6WbRt0?si=dXyU14BD8TyFTb4D&amp;controls=0" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                  </iframe>
+                </div>
+              </td>
+            </tr>
+            <tr class="odd:bg-gray-900 even:bg-gray-800 border-b border-gray-700">
+              <th scope="row" class="px-2 py-4 whitespace-nowrap">
+                12/06/2025
+                <br>
+                20k views
+              </th>
+              <td class="px-2 py-4">
+                <div class="w-full aspect-video relative">
+                  <iframe class="absolute top-0 left-0 w-full h-full"
+                    src="https://www.youtube.com/embed/o3_tZx1DCCA?si=ETxL9EMPtbLyfvzd&amp;controls=0" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                  </iframe>
+                </div>
+              </td>
+            </tr>
+            <tr class="odd:bg-gray-900 even:bg-gray-800 border-b border-gray-700">
+              <th scope="row" class="px-2 py-4 whitespace-nowrap">
+                3/06/2025
+                <br>
+                49k views
+              </th>
+              <td class="px-2 py-4">
+                <div class="w-full aspect-video relative">
+                  <iframe class="absolute top-0 left-0 w-full h-full"
+                    src="https://www.youtube.com/embed/MeQyT1fAVq8?si=7XcZfr9bMRbdebL-&amp;controls=0" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                  </iframe>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
-      <div
-        class="deco_bottom-left absolute bottom-0 left-0 origin-bottom-left scale-50 md:scale-100 min-w-60"
-      >
-        <img
-          src="assets/images/deco_8.webp"
-          alt=""
-          class="w-28 absolute bottom-0 left-0 rotate-[60deg] translate-x-[110%] translate-y-[50%]"
-        />
-        <img
-          src="assets/images/deco_13.webp"
-          alt=""
-          class="w-32 absolute bottom-0 left-0 rotate-[20deg] -translate-x-[20%] translate-y-[50%]"
-        />
+    </div>
+  </div>
+  <div
+    class="w-full flex justify-center items-center px-4 py-16 sm:p-10 md:p-20 relative overflow-hidden wow animate__animated animate__fadeInUp">
+    <div class="deco_top-left absolute top-0 left-0 origin-top-left scale-50 md:scale-100 min-w-60">
+      <img src="assets/images/deco_13.webp" alt=""
+        class="w-36 absolute top-0 left-0 rotate-[115deg] -translate-x-[50%] -translate-y-[40%]" />
+    </div>
+    <div class="deco_top-right absolute top-0 right-0 origin-top-right scale-50 md:scale-100 min-w-60">
+      <img src="assets/images/deco_2.webp" alt=""
+        class="w-24 absolute top-0 right-0 rotate-[200deg] -translate-x-[5%] -translate-y-[30%]" />
+      <img src="assets/images/deco_4.png" alt=""
+        class="w-7 absolute top-0 right-0 -scale-x-100 rotate-[235deg] -translate-x-[750%] translate-y-[120%]" />
+      <img src="assets/images/deco_5.png" alt=""
+        class="w-6 absolute top-0 right-0 -scale-x-100 rotate-[35deg] -translate-x-[500%] translate-y-[220%]" />
+    </div>
+    <div class="deco_bottom-left absolute bottom-0 left-0 origin-bottom-left scale-50 md:scale-100 min-w-60">
+      <img src="assets/images/deco_8.webp" alt=""
+        class="w-28 absolute bottom-0 left-0 rotate-[60deg] translate-x-[110%] translate-y-[50%]" />
+      <img src="assets/images/deco_13.webp" alt=""
+        class="w-32 absolute bottom-0 left-0 rotate-[20deg] -translate-x-[20%] translate-y-[50%]" />
+    </div>
+    <div class="deco_bottom-right absolute bottom-0 right-0 origin-bottom-right scale-50 md:scale-100 min-w-60">
+      <img src="assets/images/deco_6.webp" alt=""
+        class="w-54 absolute bottom-0 right-0 -scale-x-100 rotate-[0deg] translate-x-[18%] translate-y-[25%]" />
+      <img src="assets/images/deco_7.webp" alt=""
+        class="w-20 absolute bottom-0 right-0 -rotate-[20deg] -translate-x-[50%] translate-y-[40%]" />
+      <img src="assets/images/deco_10.webp" alt=""
+        class="w-24 absolute bottom-0 right-0 -rotate-[50deg] -translate-x-[90%] translate-y-[32%]" />
+    </div>
+    <div
+      class="container h-full border-2 border-primary flex flex-col justify-center items-center px-8 md:px-14 py-10 gap-8">
+      <div class="text-center text-4xl md:text-5xl text-primary mb-4 z-10">
+        Bài báo
       </div>
-      <div
-        class="deco_bottom-right absolute bottom-0 right-0 origin-bottom-right scale-50 md:scale-100 min-w-60"
-      >
-        <img
-          src="assets/images/deco_6.webp"
-          alt=""
-          class="w-54 absolute bottom-0 right-0 -scale-x-100 rotate-[0deg] translate-x-[18%] translate-y-[25%]"
-        />
-        <img
-          src="assets/images/deco_7.webp"
-          alt=""
-          class="w-20 absolute bottom-0 right-0 -rotate-[20deg] -translate-x-[50%] translate-y-[40%]"
-        />
-        <img
-          src="assets/images/deco_10.webp"
-          alt=""
-          class="w-24 absolute bottom-0 right-0 -rotate-[50deg] -translate-x-[90%] translate-y-[32%]"
-        />
+      <div class="w-full relative overflow-x-auto shadow-md sm:rounded-lg">
+        <table class="w-full text-sm text-left text-gray-400">
+          <thead class="text-xs text-gray-700 uppercase bg-gray-700 text-gray-400 text-white">
+            <tr>
+              <th scope="col" class="px-2 py-3">Ngày</th>
+              <th scope="col" class="px-2 py-3">Nội dung</th>
+              <th scope="col" class="px-2 py-3">Link</th>
+            </tr>
+          </thead>
+          <tbody class="text-white">
+            <tr class="odd:bg-gray-900 even:bg-gray-800 border-b border-gray-700">
+              <th scope="row" class="px-2 py-4 whitespace-nowrap">
+                11/01/2024
+              </th>
+              <td class="px-2 py-4">
+                Phố bán đồ trang trí tết ở TP.HCM rực rỡ: Người mua chần chừ,
+                người bán thấp thỏm
+              </td>
+              <td class="px-2 py-4">
+                <a href="https://thanhnien.vn/pho-ban-do-trang-tri-tet-o-tphcm-ruc-ro-nguoi-mua-chan-chu-nguoi-ban-thap-thom-185240110193337971.htm"
+                  class="hover:underline">Xem</a>
+              </td>
+            </tr>
+            <tr class="odd:bg-gray-900 even:bg-gray-800 border-b border-gray-700">
+              <th scope="row" class="px-2 py-4 whitespace-nowrap">
+                12/01/2024
+              </th>
+              <td class="px-2 py-4">
+                Chợ bánh kẹo, mứt tết lớn nhất TP.HCM nhộn nhịp: Tiểu thương
+                tim 'đánh lô tô'
+              </td>
+              <td class="px-2 py-4">
+                <a href="https://thanhnien.vn/cho-banh-keo-mut-tet-lon-nhat-tphcm-nhon-nhip-tieu-thuong-tim-danh-lo-to-185240112124949006.htm"
+                  class="hover:underline">Xem</a>
+              </td>
+            </tr>
+            <tr class="odd:bg-gray-900 even:bg-gray-800 border-b border-gray-700">
+              <th scope="row" class="px-2 py-4 whitespace-nowrap">
+                16/01/2024
+              </th>
+              <td class="px-2 py-4">
+                Gia đình miền Tây dắt nhau lên TP.HCM làm dừa dát vàng, kiếm
+                tiền tiêu tết
+              </td>
+              <td class="px-2 py-4">
+                <a href="https://thanhnien.vn/gia-dinh-mien-tay-dat-nhau-len-tphcm-lam-dua-dat-vang-kiem-tien-tieu-tet-185240115230914838.htm"
+                  class="hover:underline">Xem</a>
+              </td>
+            </tr>
+            <tr class="odd:bg-gray-900 even:bg-gray-800 border-b border-gray-700">
+              <th scope="row" class="px-2 py-4 whitespace-nowrap">
+                19/01/2024
+              </th>
+              <td class="px-2 py-4">
+                Người dân khu Chợ Lớn sắm tết tại công viên Văn Lang
+              </td>
+              <td class="px-2 py-4">
+                <a href="https://thanhnien.vn/nguoi-dan-khu-cho-lon-sam-tet-tai-cong-vien-van-lang-185240119120806413.htm"
+                  class="hover:underline">Xem</a>
+              </td>
+            </tr>
+            <tr class="odd:bg-gray-900 even:bg-gray-800 border-b border-gray-700">
+              <th scope="row" class="px-2 py-4 whitespace-nowrap">
+                24/01/2024
+              </th>
+              <td class="px-2 py-4">
+                Siêu thị tết 0 đồng ở TP.HCM: Nhiều người chọn gạo, mì gói để
+                dành ăn dần
+              </td>
+              <td class="px-2 py-4">
+                <a href="https://thanhnien.vn/sieu-thi-tet-0-dong-o-tphcm-nhieu-nguoi-chon-gao-mi-goi-de-danh-an-dan-185240124121155595.htm"
+                  class="hover:underline">Xem</a>
+              </td>
+            </tr>
+            <tr class="odd:bg-gray-900 even:bg-gray-800 border-b border-gray-700">
+              <th scope="row" class="px-2 py-4 whitespace-nowrap">
+                27/01/2024
+              </th>
+              <td class="px-2 py-4">
+                Xóm đạo TP.HCM 'ăn tết lớn', trang trí rực rỡ chào đón mọi
+                người đến check-in
+              </td>
+              <td class="px-2 py-4">
+                <a href="https://thanhnien.vn/xom-dao-tphcm-an-tet-lon-trang-tri-ruc-ro-chao-don-moi-nguoi-den-check-in-185240127085807378.htm"
+                  class="hover:underline">Xem</a>
+              </td>
+            </tr>
+            <tr class="odd:bg-gray-900 even:bg-gray-800 border-b border-gray-700">
+              <th scope="row" class="px-2 py-4 whitespace-nowrap">
+                26/02/2024
+              </th>
+              <td class="px-2 py-4">
+                Hai thầy giáo Tây kết thúc chuyến đi bộ xuyên Việt gây quỹ
+                giúp trẻ em
+              </td>
+              <td class="px-2 py-4">
+                <a href="https://thanhnien.vn/hai-thay-giao-tay-ket-thuc-chuyen-di-bo-xuyen-viet-gay-quy-giup-tre-em-185240226122104579.htm"
+                  class="hover:underline">Xem</a>
+              </td>
+            </tr>
+            <tr class="odd:bg-gray-900 even:bg-gray-800 border-b border-gray-700">
+              <th scope="row" class="px-2 py-4 whitespace-nowrap">
+                07/03/2024
+              </th>
+              <td class="px-2 py-4">
+                Tặng hoa ngày 8.3 là… lãng mạn hay lãng phí?: Phái nữ lên
+                tiếng
+              </td>
+              <td class="px-2 py-4">
+                <a href="https://thanhnien.vn/tang-hoa-ngay-83-la-lang-man-hay-lang-phi-phai-nu-len-tieng-185240307092329091.htm"
+                  class="hover:underline">Xem</a>
+              </td>
+            </tr>
+            <tr class="odd:bg-gray-900 even:bg-gray-800 border-b border-gray-700">
+              <th scope="row" class="px-2 py-4 whitespace-nowrap">
+                27/03/2024
+              </th>
+              <td class="px-2 py-4">
+                Người Công giáo ở TP.HCM lãnh nhận bí tích giải tội trước Lễ
+                Phục sinh
+              </td>
+              <td class="px-2 py-4">
+                <a href="https://thanhnien.vn/nguoi-cong-giao-o-tphcm-lanh-nhan-bi-tich-giai-toi-truoc-le-phuc-sinh-185240317200148344.htm"
+                  class="hover:underline">Xem</a>
+              </td>
+            </tr>
+            <tr class="odd:bg-gray-900 even:bg-gray-800 border-b border-gray-700">
+              <th scope="row" class="px-2 py-4 whitespace-nowrap">
+                30/03/2024
+              </th>
+              <td class="px-2 py-4">
+                Người Công giáo ở TP.HCM đón lễ Phục sinh, hân hoan mừng Chúa
+                Giêsu sống lại
+              </td>
+              <td class="px-2 py-4">
+                <a href="https://thanhnien.vn/nguoi-cong-giao-o-tphcm-don-le-phuc-sinh-han-hoan-mung-chua-giesu-song-lai-185240330212606311.htm"
+                  class="hover:underline">Xem</a>
+              </td>
+            </tr>
+            <tr class="odd:bg-gray-900 even:bg-gray-800 border-b border-gray-700">
+              <th scope="row" class="px-2 py-4 whitespace-nowrap">
+                04/04/2024
+              </th>
+              <td class="px-2 py-4">
+                Nhiều người ở chung cư TP.HCM ám ảnh mùi hôi, chất thải của
+                chó mèo
+              </td>
+              <td class="px-2 py-4">
+                <a href="https://thanhnien.vn/nhieu-nguoi-o-chung-cu-tphcm-am-anh-mui-hoi-chat-thai-cua-cho-meo-185240404135710219.htm"
+                  class="hover:underline">Xem</a>
+              </td>
+            </tr>
+            <tr class="odd:bg-gray-900 even:bg-gray-800 border-b border-gray-700">
+              <th scope="row" class="px-2 py-4 whitespace-nowrap">
+                06/04/2024
+              </th>
+              <td class="px-2 py-4">
+                Gia đình nuôi 5 con chó ở chung cư 'bật mí' bí quyết không bị
+                hàng xóm phàn nàn
+              </td>
+              <td class="px-2 py-4">
+                <a href="https://thanhnien.vn/gia-dinh-nuoi-5-con-cho-o-chung-cu-bat-mi-bi-quyet-khong-bi-hang-xom-phan-nan-185240405190435535.htm"
+                  class="hover:underline">Xem</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
-      <div
-        class="container h-full border-2 border-primary flex flex-col justify-center items-center px-8 md:px-14 py-10 gap-8"
-      >
-        <div class="text-center text-4xl md:text-5xl text-primary mb-8 z-10">
-          Dựng phim
+    </div>
+  </div>
+  <div id="creative"
+    class="w-full flex justify-center items-center px-4 py-16 sm:p-10 md:p-20 relative overflow-hidden wow animate__animated animate__fadeInUp">
+    <div class="deco_top-left absolute top-0 left-0 origin-top-left scale-50 md:scale-100 min-w-60">
+      <img src="assets/images/deco_13.webp" alt=""
+        class="w-36 absolute top-0 left-0 rotate-[115deg] -translate-x-[50%] -translate-y-[40%]" />
+    </div>
+    <div class="deco_top-right absolute top-0 right-0 origin-top-right scale-50 md:scale-100 min-w-60">
+      <img src="assets/images/deco_2.webp" alt=""
+        class="w-24 absolute top-0 right-0 rotate-[200deg] -translate-x-[5%] -translate-y-[30%]" />
+      <img src="assets/images/deco_4.png" alt=""
+        class="w-7 absolute top-0 right-0 -scale-x-100 rotate-[235deg] -translate-x-[750%] translate-y-[120%]" />
+      <img src="assets/images/deco_5.png" alt=""
+        class="w-6 absolute top-0 right-0 -scale-x-100 rotate-[35deg] -translate-x-[500%] translate-y-[220%]" />
+    </div>
+    <div class="deco_bottom-left absolute bottom-0 left-0 origin-bottom-left scale-50 md:scale-100 min-w-60">
+      <img src="assets/images/deco_8.webp" alt=""
+        class="w-28 absolute bottom-0 left-0 rotate-[60deg] translate-x-[110%] translate-y-[50%]" />
+      <img src="assets/images/deco_13.webp" alt=""
+        class="w-32 absolute bottom-0 left-0 rotate-[20deg] -translate-x-[20%] translate-y-[50%]" />
+    </div>
+    <div class="deco_bottom-right absolute bottom-0 right-0 origin-bottom-right scale-50 md:scale-100 min-w-60">
+      <img src="assets/images/deco_6.webp" alt=""
+        class="w-54 absolute bottom-0 right-0 -scale-x-100 rotate-[0deg] translate-x-[18%] translate-y-[25%]" />
+      <img src="assets/images/deco_7.webp" alt=""
+        class="w-20 absolute bottom-0 right-0 -rotate-[20deg] -translate-x-[50%] translate-y-[40%]" />
+      <img src="assets/images/deco_10.webp" alt=""
+        class="w-24 absolute bottom-0 right-0 -rotate-[50deg] -translate-x-[90%] translate-y-[32%]" />
+    </div>
+    <a href="https://www.facebook.com/nangg.mayyyy" target="_blank"
+      class="container h-full border-2 border-primary grid grid-cols-3 justify-center items-center px-8 md:px-14 py-10 gap-8">
+      <div class="col-span-3 text-center text-4xl md:text-5xl text-primary mb-4 z-10">
+        Sáng tạo nội dung
+      </div>
+      <img src="assets/images/creative_1.png" alt=""
+        class="size-full col-span-3 lg:col-span-1 object-contain shadow-lg hover:scale-105 duration-300 z-10" />
+      <img src="assets/images/creative_2.png" alt=""
+        class="object-contain size-full col-span-3 lg:col-span-1 shadow-lg hover:scale-105 duration-300 z-10" />
+      <img src="assets/images/creative_3.png" alt=""
+        class="object-contain size-full col-span-3 lg:col-span-1 shadow-lg hover:scale-105 duration-300 z-10" />
+    </a>
+  </div>
+  <div id="film_maker"
+    class="w-full flex justify-center items-center px-4 py-16 sm:p-10 md:p-20 relative overflow-hidden wow animate__animated animate__fadeInUp">
+    <div class="deco_top-left absolute top-0 left-0 origin-top-left scale-50 md:scale-100 min-w-60">
+      <img src="assets/images/deco_13.webp" alt=""
+        class="w-36 absolute top-0 left-0 rotate-[115deg] -translate-x-[50%] -translate-y-[40%]" />
+    </div>
+    <div class="deco_top-right absolute top-0 right-0 origin-top-right scale-50 md:scale-100 min-w-60">
+      <img src="assets/images/deco_2.webp" alt=""
+        class="w-24 absolute top-0 right-0 rotate-[200deg] -translate-x-[5%] -translate-y-[30%]" />
+      <img src="assets/images/deco_4.png" alt=""
+        class="w-7 absolute top-0 right-0 -scale-x-100 rotate-[235deg] -translate-x-[750%] translate-y-[120%]" />
+      <img src="assets/images/deco_5.png" alt=""
+        class="w-6 absolute top-0 right-0 -scale-x-100 rotate-[35deg] -translate-x-[500%] translate-y-[220%]" />
+    </div>
+    <div class="deco_bottom-left absolute bottom-0 left-0 origin-bottom-left scale-50 md:scale-100 min-w-60">
+      <img src="assets/images/deco_8.webp" alt=""
+        class="w-28 absolute bottom-0 left-0 rotate-[60deg] translate-x-[110%] translate-y-[50%]" />
+      <img src="assets/images/deco_13.webp" alt=""
+        class="w-32 absolute bottom-0 left-0 rotate-[20deg] -translate-x-[20%] translate-y-[50%]" />
+    </div>
+    <div class="deco_bottom-right absolute bottom-0 right-0 origin-bottom-right scale-50 md:scale-100 min-w-60">
+      <img src="assets/images/deco_6.webp" alt=""
+        class="w-54 absolute bottom-0 right-0 -scale-x-100 rotate-[0deg] translate-x-[18%] translate-y-[25%]" />
+      <img src="assets/images/deco_7.webp" alt=""
+        class="w-20 absolute bottom-0 right-0 -rotate-[20deg] -translate-x-[50%] translate-y-[40%]" />
+      <img src="assets/images/deco_10.webp" alt=""
+        class="w-24 absolute bottom-0 right-0 -rotate-[50deg] -translate-x-[90%] translate-y-[32%]" />
+    </div>
+    <div
+      class="container h-full border-2 border-primary flex flex-col justify-center items-center px-8 md:px-14 py-10 gap-8">
+      <div class="text-center text-4xl md:text-5xl text-primary mb-8 z-10">
+        Dựng phim
+      </div>
+      <div class="flex flex-col md:flex-row justify-center gap-10 z-10">
+        <video controls autoplay playsinline muted class="md:max-h-96 object-cover">
+          <source src="assets/videos/film_1.mp4" type="video/mp4" />
+        </video>
+        <video controls autoplay playsinline muted class="md:max-h-96 object-cover">
+          <source src="assets/videos/film_2.mp4" type="video/mp4" />
+        </video>
+      </div>
+    </div>
+  </div>
+  <div id="graphic_design"
+    class="w-full flex justify-center items-center px-4 py-16 sm:p-10 md:p-20 relative overflow-hidden wow animate__animated animate__fadeInUp">
+    <div class="deco_top-left absolute top-0 left-0 origin-top-left scale-50 md:scale-100 min-w-60">
+      <img src="assets/images/deco_13.webp" alt=""
+        class="w-36 absolute top-0 left-0 rotate-[115deg] -translate-x-[50%] -translate-y-[40%]" />
+    </div>
+    <div class="deco_top-right absolute top-0 right-0 origin-top-right scale-50 md:scale-100 min-w-60">
+      <img src="assets/images/deco_2.webp" alt=""
+        class="w-24 absolute top-0 right-0 rotate-[200deg] -translate-x-[5%] -translate-y-[30%]" />
+      <img src="assets/images/deco_4.png" alt=""
+        class="w-7 absolute top-0 right-0 -scale-x-100 rotate-[235deg] -translate-x-[750%] translate-y-[120%]" />
+      <img src="assets/images/deco_5.png" alt=""
+        class="w-6 absolute top-0 right-0 -scale-x-100 rotate-[35deg] -translate-x-[500%] translate-y-[220%]" />
+    </div>
+    <div class="deco_bottom-left absolute bottom-0 left-0 origin-bottom-left scale-50 md:scale-100 min-w-60">
+      <img src="assets/images/deco_8.webp" alt=""
+        class="w-28 absolute bottom-0 left-0 rotate-[60deg] translate-x-[110%] translate-y-[50%]" />
+      <img src="assets/images/deco_13.webp" alt=""
+        class="w-32 absolute bottom-0 left-0 rotate-[20deg] -translate-x-[20%] translate-y-[50%]" />
+    </div>
+    <div class="deco_bottom-right absolute bottom-0 right-0 origin-bottom-right scale-50 md:scale-100 min-w-60">
+      <img src="assets/images/deco_6.webp" alt=""
+        class="w-54 absolute bottom-0 right-0 -scale-x-100 rotate-[0deg] translate-x-[18%] translate-y-[25%]" />
+      <img src="assets/images/deco_7.webp" alt=""
+        class="w-20 absolute bottom-0 right-0 -rotate-[20deg] -translate-x-[50%] translate-y-[40%]" />
+      <img src="assets/images/deco_10.webp" alt=""
+        class="w-24 absolute bottom-0 right-0 -rotate-[50deg] -translate-x-[90%] translate-y-[32%]" />
+    </div>
+    <div
+      class="container h-full border-2 border-primary grid grid-cols-3 justify-center items-center px-8 md:px-14 py-10 gap-8">
+      <div class="col-span-3 text-center text-4xl md:text-5xl text-primary mb-4 z-10">
+        Thiết kế đồ hoạ
+      </div>
+      <img src="assets/images/graphic_design_1.png" alt=""
+        class="size-full col-span-3 lg:col-span-1 object-contain shadow-lg hover:scale-105 duration-300 z-10" />
+      <img src="assets/images/graphic_design_2.png" alt=""
+        class="object-contain size-full col-span-3 lg:col-span-1 shadow-lg hover:scale-105 duration-300 z-10" />
+      <img src="assets/images/graphic_design_3.jpg" alt=""
+        class="object-contain size-full col-span-3 lg:col-span-1 shadow-lg hover:scale-105 duration-300 z-10" />
+    </div>
+  </div>
+  <div id="reportages"
+    class="w-full flex justify-center items-center px-4 py-16 sm:p-10 md:p-20 relative overflow-hidden wow animate__animated animate__fadeInUp">
+    <div class="deco_top-left absolute top-0 left-0 origin-top-left scale-50 md:scale-100 min-w-60">
+      <img src="assets/images/deco_13.webp" alt=""
+        class="w-36 absolute top-0 left-0 rotate-[115deg] -translate-x-[50%] -translate-y-[40%]" />
+    </div>
+    <div class="deco_top-right absolute top-0 right-0 origin-top-right scale-50 md:scale-100 min-w-60">
+      <img src="assets/images/deco_2.webp" alt=""
+        class="w-24 absolute top-0 right-0 rotate-[200deg] -translate-x-[5%] -translate-y-[30%]" />
+      <img src="assets/images/deco_4.png" alt=""
+        class="w-7 absolute top-0 right-0 -scale-x-100 rotate-[235deg] -translate-x-[750%] translate-y-[120%]" />
+      <img src="assets/images/deco_5.png" alt=""
+        class="w-6 absolute top-0 right-0 -scale-x-100 rotate-[35deg] -translate-x-[500%] translate-y-[220%]" />
+    </div>
+    <div class="deco_bottom-left absolute bottom-0 left-0 origin-bottom-left scale-50 md:scale-100 min-w-60">
+      <img src="assets/images/deco_8.webp" alt=""
+        class="w-28 absolute bottom-0 left-0 rotate-[60deg] translate-x-[110%] translate-y-[50%]" />
+      <img src="assets/images/deco_13.webp" alt=""
+        class="w-32 absolute bottom-0 left-0 rotate-[20deg] -translate-x-[20%] translate-y-[50%]" />
+    </div>
+    <div class="deco_bottom-right absolute bottom-0 right-0 origin-bottom-right scale-50 md:scale-100 min-w-60">
+      <img src="assets/images/deco_6.webp" alt=""
+        class="w-54 absolute bottom-0 right-0 -scale-x-100 rotate-[0deg] translate-x-[18%] translate-y-[25%]" />
+      <img src="assets/images/deco_7.webp" alt=""
+        class="w-20 absolute bottom-0 right-0 -rotate-[20deg] -translate-x-[50%] translate-y-[40%]" />
+      <img src="assets/images/deco_10.webp" alt=""
+        class="w-24 absolute bottom-0 right-0 -rotate-[50deg] -translate-x-[90%] translate-y-[32%]" />
+    </div>
+    <div
+      class="container h-full border-2 border-primary flex flex-col lg:flex-row justify-center items-center p-8 md:p-14 gap-8">
+      <img src="assets/images/reportage.png" alt="" class="object-contain max-w-1/2 order-1 lg:order-none z-10" />
+      <div class="text-center flex-1 text-4xl md:text-5xl text-primary z-10">
+        Phóng sự ảnh
+      </div>
+    </div>
+  </div>
+  <div id="web_design"
+    class="w-full flex justify-center items-center px-4 py-16 sm:p-10 md:p-20 relative overflow-hidden wow animate__animated animate__fadeInUp">
+    <div class="deco_top-left absolute top-0 left-0 origin-top-left scale-50 md:scale-100 min-w-60">
+      <img src="assets/images/deco_13.webp" alt=""
+        class="w-36 absolute top-0 left-0 rotate-[115deg] -translate-x-[50%] -translate-y-[40%]" />
+    </div>
+    <div class="deco_top-right absolute top-0 right-0 origin-top-right scale-50 md:scale-100 min-w-60">
+      <img src="assets/images/deco_2.webp" alt=""
+        class="w-24 absolute top-0 right-0 rotate-[200deg] -translate-x-[5%] -translate-y-[30%]" />
+      <img src="assets/images/deco_4.png" alt=""
+        class="w-7 absolute top-0 right-0 -scale-x-100 rotate-[235deg] -translate-x-[750%] translate-y-[120%]" />
+      <img src="assets/images/deco_5.png" alt=""
+        class="w-6 absolute top-0 right-0 -scale-x-100 rotate-[35deg] -translate-x-[500%] translate-y-[220%]" />
+    </div>
+    <div class="deco_bottom-left absolute bottom-0 left-0 origin-bottom-left scale-50 md:scale-100 min-w-60">
+      <img src="assets/images/deco_8.webp" alt=""
+        class="w-28 absolute bottom-0 left-0 rotate-[60deg] translate-x-[110%] translate-y-[50%]" />
+      <img src="assets/images/deco_13.webp" alt=""
+        class="w-32 absolute bottom-0 left-0 rotate-[20deg] -translate-x-[20%] translate-y-[50%]" />
+    </div>
+    <div class="deco_bottom-right absolute bottom-0 right-0 origin-bottom-right scale-50 md:scale-100 min-w-60">
+      <img src="assets/images/deco_6.webp" alt=""
+        class="w-54 absolute bottom-0 right-0 -scale-x-100 rotate-[0deg] translate-x-[18%] translate-y-[25%]" />
+      <img src="assets/images/deco_7.webp" alt=""
+        class="w-20 absolute bottom-0 right-0 -rotate-[20deg] -translate-x-[50%] translate-y-[40%]" />
+      <img src="assets/images/deco_10.webp" alt=""
+        class="w-24 absolute bottom-0 right-0 -rotate-[50deg] -translate-x-[90%] translate-y-[32%]" />
+    </div>
+    <div
+      class="container h-full border-2 border-primary flex flex-col justify-center items-center px-8 md:px-14 py-10 gap-8">
+      <div class="text-center text-4xl md:text-5xl text-primary mb-4 z-10">
+        Thiết kế Website
+      </div>
+      <a href="https://giathunguyen.wordpress.com/" target="_blank" class="z-10">
+        <img src="assets/images/web_design.png" alt=""
+          class="object-contain size-full shadow-lg hover:scale-105 duration-300 cursor-pointer" />
+      </a>
+    </div>
+  </div>
+  <div
+    class="w-full min-h-[600px] flex justify-center items-center px-4 py-16 sm:p-10 md:p-20 relative overflow-hidden wow animate__animated animate__fadeInUp">
+    <div class="deco_top-left absolute top-0 left-0 origin-top-left scale-50 md:scale-100 min-w-60">
+      <img src="assets/images/deco_3.webp" alt=""
+        class="w-36 absolute top-0 left-0 rotate-[135deg] -translate-x-[55%] -translate-y-[44%]" />
+      <img src="assets/images/deco_2.webp" alt=""
+        class="w-20 absolute top-0 left-0 rotate-[150deg] translate-x-[40%] -translate-y-[30%]" />
+      <img src="assets/images/deco_1.webp" alt=""
+        class="w-20 absolute top-0 left-0 rotate-[160deg] -scale-x-100 translate-x-[120%] -translate-y-[35%]" />
+      <img src="assets/images/deco_4.png" alt=""
+        class="w-12 absolute top-0 left-0 rotate-[95deg] translate-x-[40%] translate-y-[220%]" />
+      <img src="assets/images/deco_5.png" alt=""
+        class="w-8 absolute top-0 left-0 rotate-[-30deg] translate-x-[520%] translate-y-[324%]" />
+    </div>
+    <div class="deco_top-right absolute top-0 right-0 origin-top-right scale-50 md:scale-100 min-w-60">
+      <img src="assets/images/deco_2.webp" alt=""
+        class="w-24 absolute top-0 right-0 rotate-[200deg] -translate-x-[5%] -translate-y-[30%]" />
+      <img src="assets/images/deco_4.png" alt=""
+        class="w-10 absolute top-0 right-0 -scale-x-100 rotate-[245deg] -translate-x-[370%] translate-y-[90%]" />
+      <img src="assets/images/deco_5.png" alt=""
+        class="w-6 absolute top-0 right-0 -scale-x-100 rotate-[35deg] -translate-x-[500%] translate-y-[320%]" />
+    </div>
+    <div class="deco_bottom-left absolute bottom-0 left-0 origin-bottom-left scale-50 md:scale-100 min-w-60">
+      <img src="assets/images/deco_12.png" alt=""
+        class="w-20 absolute bottom-0 left-0 rotate-[0deg] translate-x-[0%] translate-y-[20%]" />
+      <img src="assets/images/deco_3.webp" alt=""
+        class="w-32 absolute bottom-0 left-0 rotate-[20deg] translate-x-[8%] translate-y-[58%]" />
+    </div>
+    <div class="deco_bottom-right absolute bottom-0 right-0 origin-bottom-right scale-50 md:scale-100 min-w-60">
+      <img src="assets/images/deco_6.webp" alt=""
+        class="w-54 absolute bottom-0 right-0 -scale-x-100 rotate-[0deg] translate-x-[18%] translate-y-[25%]" />
+      <img src="assets/images/deco_7.webp" alt=""
+        class="w-20 absolute bottom-0 right-0 -rotate-[20deg] -translate-x-[50%] translate-y-[40%]" />
+      <img src="assets/images/deco_10.webp" alt=""
+        class="w-24 absolute bottom-0 right-0 -rotate-[50deg] -translate-x-[90%] translate-y-[32%]" />
+    </div>
+    <div
+      class="container h-full border-2 border-primary flex flex-col justify-center items-center px-8 md:px-14 py-10 gap-6">
+      <div class="text-center text-4xl md:text-5xl text-primary mb-4 z-10">
+        Thank you for watching
+      </div>
+      <div class="flex flex-col gap-3">
+        <div class="flex gap-4 items-center text-primary thanks_item">
+          <img src="assets/images/email.svg" alt="" class="size-8" />
+          <a href="mailto: Giathunguyen5@gmail.com" target="_blank" class="z-10">
+            Giathunguyen5@gmail.com</a>
         </div>
-        <div class="flex flex-col md:flex-row justify-center gap-10 z-10">
-          <video
-            controls
-            autoplay
-            playsinline
-            muted
-            class="md:max-h-96 object-cover"
-          >
-            <source src="assets/videos/film_1.mp4" type="video/mp4" />
-          </video>
-          <video
-            controls
-            autoplay
-            playsinline
-            muted
-            class="md:max-h-96 object-cover"
-          >
-            <source src="assets/videos/film_2.mp4" type="video/mp4" />
-          </video>
+        <div class="flex gap-4 items-center text-primary thanks_item">
+          <img src="assets/images/address.svg" alt="" class="size-8" />
+          <a href="https://maps.app.goo.gl/NAswAE5vs5Dfa75x7" target="_blank" class="z-10">
+            685 Điện Biên Phủ, Thạnh Mỹ Tây, Hồ Chí Minh</a>
+        </div>
+        <div class="flex gap-4 items-center text-primary thanks_item">
+          <img src="assets/images/phone.svg" alt="" class="size-8" />
+          <a href="tel:0889062312" target="_blank" class="z-10">
+            0889062312</a>
         </div>
       </div>
     </div>
-    <div
-      id="graphic_design"
-      class="w-full flex justify-center items-center px-4 py-16 sm:p-10 md:p-20 relative overflow-hidden wow animate__animated animate__fadeInUp"
-    >
-      <div
-        class="deco_top-left absolute top-0 left-0 origin-top-left scale-50 md:scale-100 min-w-60"
-      >
-        <img
-          src="assets/images/deco_13.webp"
-          alt=""
-          class="w-36 absolute top-0 left-0 rotate-[115deg] -translate-x-[50%] -translate-y-[40%]"
-        />
-      </div>
-      <div
-        class="deco_top-right absolute top-0 right-0 origin-top-right scale-50 md:scale-100 min-w-60"
-      >
-        <img
-          src="assets/images/deco_2.webp"
-          alt=""
-          class="w-24 absolute top-0 right-0 rotate-[200deg] -translate-x-[5%] -translate-y-[30%]"
-        />
-        <img
-          src="assets/images/deco_4.png"
-          alt=""
-          class="w-7 absolute top-0 right-0 -scale-x-100 rotate-[235deg] -translate-x-[750%] translate-y-[120%]"
-        />
-        <img
-          src="assets/images/deco_5.png"
-          alt=""
-          class="w-6 absolute top-0 right-0 -scale-x-100 rotate-[35deg] -translate-x-[500%] translate-y-[220%]"
-        />
-      </div>
-      <div
-        class="deco_bottom-left absolute bottom-0 left-0 origin-bottom-left scale-50 md:scale-100 min-w-60"
-      >
-        <img
-          src="assets/images/deco_8.webp"
-          alt=""
-          class="w-28 absolute bottom-0 left-0 rotate-[60deg] translate-x-[110%] translate-y-[50%]"
-        />
-        <img
-          src="assets/images/deco_13.webp"
-          alt=""
-          class="w-32 absolute bottom-0 left-0 rotate-[20deg] -translate-x-[20%] translate-y-[50%]"
-        />
-      </div>
-      <div
-        class="deco_bottom-right absolute bottom-0 right-0 origin-bottom-right scale-50 md:scale-100 min-w-60"
-      >
-        <img
-          src="assets/images/deco_6.webp"
-          alt=""
-          class="w-54 absolute bottom-0 right-0 -scale-x-100 rotate-[0deg] translate-x-[18%] translate-y-[25%]"
-        />
-        <img
-          src="assets/images/deco_7.webp"
-          alt=""
-          class="w-20 absolute bottom-0 right-0 -rotate-[20deg] -translate-x-[50%] translate-y-[40%]"
-        />
-        <img
-          src="assets/images/deco_10.webp"
-          alt=""
-          class="w-24 absolute bottom-0 right-0 -rotate-[50deg] -translate-x-[90%] translate-y-[32%]"
-        />
-      </div>
-      <div
-        class="container h-full border-2 border-primary grid grid-cols-3 justify-center items-center px-8 md:px-14 py-10 gap-8"
-      >
-        <div
-          class="col-span-3 text-center text-4xl md:text-5xl text-primary mb-4 z-10"
-        >
-          Thiết kế đồ hoạ
-        </div>
-        <img
-          src="assets/images/graphic_design_1.png"
-          alt=""
-          class="size-full col-span-3 lg:col-span-1 object-contain shadow-lg hover:scale-105 duration-300 z-10"
-        />
-        <img
-          src="assets/images/graphic_design_2.png"
-          alt=""
-          class="object-contain size-full col-span-3 lg:col-span-1 shadow-lg hover:scale-105 duration-300 z-10"
-        />
-        <img
-          src="assets/images/graphic_design_3.jpg"
-          alt=""
-          class="object-contain size-full col-span-3 lg:col-span-1 shadow-lg hover:scale-105 duration-300 z-10"
-        />
-      </div>
-    </div>
-    <div
-      id="reportages"
-      class="w-full flex justify-center items-center px-4 py-16 sm:p-10 md:p-20 relative overflow-hidden wow animate__animated animate__fadeInUp"
-    >
-      <div
-        class="deco_top-left absolute top-0 left-0 origin-top-left scale-50 md:scale-100 min-w-60"
-      >
-        <img
-          src="assets/images/deco_13.webp"
-          alt=""
-          class="w-36 absolute top-0 left-0 rotate-[115deg] -translate-x-[50%] -translate-y-[40%]"
-        />
-      </div>
-      <div
-        class="deco_top-right absolute top-0 right-0 origin-top-right scale-50 md:scale-100 min-w-60"
-      >
-        <img
-          src="assets/images/deco_2.webp"
-          alt=""
-          class="w-24 absolute top-0 right-0 rotate-[200deg] -translate-x-[5%] -translate-y-[30%]"
-        />
-        <img
-          src="assets/images/deco_4.png"
-          alt=""
-          class="w-7 absolute top-0 right-0 -scale-x-100 rotate-[235deg] -translate-x-[750%] translate-y-[120%]"
-        />
-        <img
-          src="assets/images/deco_5.png"
-          alt=""
-          class="w-6 absolute top-0 right-0 -scale-x-100 rotate-[35deg] -translate-x-[500%] translate-y-[220%]"
-        />
-      </div>
-      <div
-        class="deco_bottom-left absolute bottom-0 left-0 origin-bottom-left scale-50 md:scale-100 min-w-60"
-      >
-        <img
-          src="assets/images/deco_8.webp"
-          alt=""
-          class="w-28 absolute bottom-0 left-0 rotate-[60deg] translate-x-[110%] translate-y-[50%]"
-        />
-        <img
-          src="assets/images/deco_13.webp"
-          alt=""
-          class="w-32 absolute bottom-0 left-0 rotate-[20deg] -translate-x-[20%] translate-y-[50%]"
-        />
-      </div>
-      <div
-        class="deco_bottom-right absolute bottom-0 right-0 origin-bottom-right scale-50 md:scale-100 min-w-60"
-      >
-        <img
-          src="assets/images/deco_6.webp"
-          alt=""
-          class="w-54 absolute bottom-0 right-0 -scale-x-100 rotate-[0deg] translate-x-[18%] translate-y-[25%]"
-        />
-        <img
-          src="assets/images/deco_7.webp"
-          alt=""
-          class="w-20 absolute bottom-0 right-0 -rotate-[20deg] -translate-x-[50%] translate-y-[40%]"
-        />
-        <img
-          src="assets/images/deco_10.webp"
-          alt=""
-          class="w-24 absolute bottom-0 right-0 -rotate-[50deg] -translate-x-[90%] translate-y-[32%]"
-        />
-      </div>
-      <div
-        class="container h-full border-2 border-primary flex flex-col lg:flex-row justify-center items-center p-8 md:p-14 gap-8"
-      >
-        <img
-          src="assets/images/reportage.png"
-          alt=""
-          class="object-contain max-w-1/2 order-1 lg:order-none z-10"
-        />
-        <div class="text-center flex-1 text-4xl md:text-5xl text-primary z-10">
-          Phóng sự ảnh
-        </div>
-      </div>
-    </div>
-    <div
-      id="web_design"
-      class="w-full flex justify-center items-center px-4 py-16 sm:p-10 md:p-20 relative overflow-hidden wow animate__animated animate__fadeInUp"
-    >
-      <div
-        class="deco_top-left absolute top-0 left-0 origin-top-left scale-50 md:scale-100 min-w-60"
-      >
-        <img
-          src="assets/images/deco_13.webp"
-          alt=""
-          class="w-36 absolute top-0 left-0 rotate-[115deg] -translate-x-[50%] -translate-y-[40%]"
-        />
-      </div>
-      <div
-        class="deco_top-right absolute top-0 right-0 origin-top-right scale-50 md:scale-100 min-w-60"
-      >
-        <img
-          src="assets/images/deco_2.webp"
-          alt=""
-          class="w-24 absolute top-0 right-0 rotate-[200deg] -translate-x-[5%] -translate-y-[30%]"
-        />
-        <img
-          src="assets/images/deco_4.png"
-          alt=""
-          class="w-7 absolute top-0 right-0 -scale-x-100 rotate-[235deg] -translate-x-[750%] translate-y-[120%]"
-        />
-        <img
-          src="assets/images/deco_5.png"
-          alt=""
-          class="w-6 absolute top-0 right-0 -scale-x-100 rotate-[35deg] -translate-x-[500%] translate-y-[220%]"
-        />
-      </div>
-      <div
-        class="deco_bottom-left absolute bottom-0 left-0 origin-bottom-left scale-50 md:scale-100 min-w-60"
-      >
-        <img
-          src="assets/images/deco_8.webp"
-          alt=""
-          class="w-28 absolute bottom-0 left-0 rotate-[60deg] translate-x-[110%] translate-y-[50%]"
-        />
-        <img
-          src="assets/images/deco_13.webp"
-          alt=""
-          class="w-32 absolute bottom-0 left-0 rotate-[20deg] -translate-x-[20%] translate-y-[50%]"
-        />
-      </div>
-      <div
-        class="deco_bottom-right absolute bottom-0 right-0 origin-bottom-right scale-50 md:scale-100 min-w-60"
-      >
-        <img
-          src="assets/images/deco_6.webp"
-          alt=""
-          class="w-54 absolute bottom-0 right-0 -scale-x-100 rotate-[0deg] translate-x-[18%] translate-y-[25%]"
-        />
-        <img
-          src="assets/images/deco_7.webp"
-          alt=""
-          class="w-20 absolute bottom-0 right-0 -rotate-[20deg] -translate-x-[50%] translate-y-[40%]"
-        />
-        <img
-          src="assets/images/deco_10.webp"
-          alt=""
-          class="w-24 absolute bottom-0 right-0 -rotate-[50deg] -translate-x-[90%] translate-y-[32%]"
-        />
-      </div>
-      <div
-        class="container h-full border-2 border-primary flex flex-col justify-center items-center px-8 md:px-14 py-10 gap-8"
-      >
-        <div class="text-center text-4xl md:text-5xl text-primary mb-4 z-10">
-          Thiết kế Website
-        </div>
-        <a
-          href="https://giathunguyen.wordpress.com/"
-          target="_blank"
-          class="z-10"
-        >
-          <img
-            src="assets/images/web_design.png"
-            alt=""
-            class="object-contain size-full shadow-lg hover:scale-105 duration-300 cursor-pointer"
-          />
-        </a>
-      </div>
-    </div>
-    <div
-      class="w-full min-h-[600px] flex justify-center items-center px-4 py-16 sm:p-10 md:p-20 relative overflow-hidden wow animate__animated animate__fadeInUp"
-    >
-      <div
-        class="deco_top-left absolute top-0 left-0 origin-top-left scale-50 md:scale-100 min-w-60"
-      >
-        <img
-          src="assets/images/deco_3.webp"
-          alt=""
-          class="w-36 absolute top-0 left-0 rotate-[135deg] -translate-x-[55%] -translate-y-[44%]"
-        />
-        <img
-          src="assets/images/deco_2.webp"
-          alt=""
-          class="w-20 absolute top-0 left-0 rotate-[150deg] translate-x-[40%] -translate-y-[30%]"
-        />
-        <img
-          src="assets/images/deco_1.webp"
-          alt=""
-          class="w-20 absolute top-0 left-0 rotate-[160deg] -scale-x-100 translate-x-[120%] -translate-y-[35%]"
-        />
-        <img
-          src="assets/images/deco_4.png"
-          alt=""
-          class="w-12 absolute top-0 left-0 rotate-[95deg] translate-x-[40%] translate-y-[220%]"
-        />
-        <img
-          src="assets/images/deco_5.png"
-          alt=""
-          class="w-8 absolute top-0 left-0 rotate-[-30deg] translate-x-[520%] translate-y-[324%]"
-        />
-      </div>
-      <div
-        class="deco_top-right absolute top-0 right-0 origin-top-right scale-50 md:scale-100 min-w-60"
-      >
-        <img
-          src="assets/images/deco_2.webp"
-          alt=""
-          class="w-24 absolute top-0 right-0 rotate-[200deg] -translate-x-[5%] -translate-y-[30%]"
-        />
-        <img
-          src="assets/images/deco_4.png"
-          alt=""
-          class="w-10 absolute top-0 right-0 -scale-x-100 rotate-[245deg] -translate-x-[370%] translate-y-[90%]"
-        />
-        <img
-          src="assets/images/deco_5.png"
-          alt=""
-          class="w-6 absolute top-0 right-0 -scale-x-100 rotate-[35deg] -translate-x-[500%] translate-y-[320%]"
-        />
-      </div>
-      <div
-        class="deco_bottom-left absolute bottom-0 left-0 origin-bottom-left scale-50 md:scale-100 min-w-60"
-      >
-        <img
-          src="assets/images/deco_12.png"
-          alt=""
-          class="w-20 absolute bottom-0 left-0 rotate-[0deg] translate-x-[0%] translate-y-[20%]"
-        />
-        <img
-          src="assets/images/deco_3.webp"
-          alt=""
-          class="w-32 absolute bottom-0 left-0 rotate-[20deg] translate-x-[8%] translate-y-[58%]"
-        />
-      </div>
-      <div
-        class="deco_bottom-right absolute bottom-0 right-0 origin-bottom-right scale-50 md:scale-100 min-w-60"
-      >
-        <img
-          src="assets/images/deco_6.webp"
-          alt=""
-          class="w-54 absolute bottom-0 right-0 -scale-x-100 rotate-[0deg] translate-x-[18%] translate-y-[25%]"
-        />
-        <img
-          src="assets/images/deco_7.webp"
-          alt=""
-          class="w-20 absolute bottom-0 right-0 -rotate-[20deg] -translate-x-[50%] translate-y-[40%]"
-        />
-        <img
-          src="assets/images/deco_10.webp"
-          alt=""
-          class="w-24 absolute bottom-0 right-0 -rotate-[50deg] -translate-x-[90%] translate-y-[32%]"
-        />
-      </div>
-      <div
-        class="container h-full border-2 border-primary flex flex-col justify-center items-center px-8 md:px-14 py-10 gap-6"
-      >
-        <div class="text-center text-4xl md:text-5xl text-primary mb-4 z-10">
-          Thank you for watching
-        </div>
-        <div class="flex flex-col gap-3">
-          <div class="flex gap-4 items-center text-primary thanks_item">
-            <img src="assets/images/email.svg" alt="" class="size-8" />
-            <a
-              href="mailto: Giathunguyen5@gmail.com"
-              target="_blank"
-              class="z-10"
-            >
-              Giathunguyen5@gmail.com</a
-            >
-          </div>
-          <div class="flex gap-4 items-center text-primary thanks_item">
-            <img src="assets/images/address.svg" alt="" class="size-8" />
-            <a
-              href="https://maps.app.goo.gl/FoRN1wmuuMTwVPB49"
-              target="_blank"
-              class="z-10"
-            >
-              21/15/7 Trường Sơn, Phường 4, Quận Tân Bình</a
-            >
-          </div>
-          <div class="flex gap-4 items-center text-primary thanks_item">
-            <img src="assets/images/phone.svg" alt="" class="size-8" />
-            <a href="tel:0889062312" target="_blank" class="z-10">
-              0889062312</a
-            >
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>
+  </div>
+</body>
+
 </html>
