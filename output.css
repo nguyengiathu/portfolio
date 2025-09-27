@@ -628,10 +628,6 @@ video {
   order: 1;
 }
 
-.col-span-2 {
-  grid-column: span 2 / span 2;
-}
-
 .col-span-3 {
   grid-column: span 3 / span 3;
 }
@@ -726,6 +722,10 @@ video {
   min-height: 100vh;
 }
 
+.w-0 {
+  width: 0px;
+}
+
 .w-10 {
   width: 2.5rem;
 }
@@ -796,23 +796,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-\[560px\] {
-  width: 560px;
-}
-
-.w-min {
-  width: -moz-min-content;
-  width: min-content;
-}
-
-.w-2 {
-  width: 0.5rem;
-}
-
-.w-0 {
-  width: 0px;
 }
 
 .min-w-60 {
